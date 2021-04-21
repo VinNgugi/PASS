@@ -1,0 +1,1265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
+    </DataSource>
+  </DataSources>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <Height>2in</Height>
+        <Style />
+      </Body>
+      <Width>6.5in</Width>
+      <Page>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+</Code>
+  <Language>=User!Language</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="FORMAT_TODAY_0_4_">
+          <DataField>FORMAT_TODAY_0_4_</DataField>
+        </Field>
+        <Field Name="COMPANYNAME">
+          <DataField>COMPANYNAME</DataField>
+        </Field>
+        <Field Name="CurrReport_PAGENO">
+          <DataField>CurrReport_PAGENO</DataField>
+        </Field>
+        <Field Name="USERID">
+          <DataField>USERID</DataField>
+        </Field>
+        <Field Name="UPPERCASE_FORMAT_DateSpecified_0___month_text___year4____">
+          <DataField>UPPERCASE_FORMAT_DateSpecified_0___month_text___year4____</DataField>
+        </Field>
+        <Field Name="TIME">
+          <DataField>TIME</DataField>
+        </Field>
+        <Field Name="Cost_Center">
+          <DataField>Cost_Center</DataField>
+        </Field>
+        <Field Name="Location_Code">
+          <DataField>Location_Code</DataField>
+        </Field>
+        <Field Name="Pay_Grade">
+          <DataField>Pay_Grade</DataField>
+        </Field>
+        <Field Name="DOB">
+          <DataField>DOB</DataField>
+        </Field>
+        <Field Name="Age">
+          <DataField>Age</DataField>
+        </Field>
+        <Field Name="AgeFormat">
+          <DataField>AgeFormat</DataField>
+        </Field>
+        <Field Name="Pension_Rate">
+          <DataField>Pension_Rate</DataField>
+        </Field>
+        <Field Name="Pension_RateFormat">
+          <DataField>Pension_RateFormat</DataField>
+        </Field>
+        <Field Name="Annual_Salary">
+          <DataField>Annual_Salary</DataField>
+        </Field>
+        <Field Name="Annual_SalaryFormat">
+          <DataField>Annual_SalaryFormat</DataField>
+        </Field>
+        <Field Name="Show_Ads">
+          <DataField>Show_Ads</DataField>
+        </Field>
+        <Field Name="DedDesc_1_">
+          <DataField>DedDesc_1_</DataField>
+        </Field>
+        <Field Name="DedDesc_2_">
+          <DataField>DedDesc_2_</DataField>
+        </Field>
+        <Field Name="DedDesc_3_">
+          <DataField>DedDesc_3_</DataField>
+        </Field>
+        <Field Name="DedDesc_4_">
+          <DataField>DedDesc_4_</DataField>
+        </Field>
+        <Field Name="DedDesc_5_">
+          <DataField>DedDesc_5_</DataField>
+        </Field>
+        <Field Name="DedDesc_6_">
+          <DataField>DedDesc_6_</DataField>
+        </Field>
+        <Field Name="DedDesc_7_">
+          <DataField>DedDesc_7_</DataField>
+        </Field>
+        <Field Name="DedDesc_8_">
+          <DataField>DedDesc_8_</DataField>
+        </Field>
+        <Field Name="DedDesc_9_">
+          <DataField>DedDesc_9_</DataField>
+        </Field>
+        <Field Name="DedDesc_10_">
+          <DataField>DedDesc_10_</DataField>
+        </Field>
+        <Field Name="DedDesc_11_">
+          <DataField>DedDesc_11_</DataField>
+        </Field>
+        <Field Name="DedDesc_12_">
+          <DataField>DedDesc_12_</DataField>
+        </Field>
+        <Field Name="DedDesc_13_">
+          <DataField>DedDesc_13_</DataField>
+        </Field>
+        <Field Name="DedDesc_14_">
+          <DataField>DedDesc_14_</DataField>
+        </Field>
+        <Field Name="DedDesc_15_">
+          <DataField>DedDesc_15_</DataField>
+        </Field>
+        <Field Name="DedDesc_16_">
+          <DataField>DedDesc_16_</DataField>
+        </Field>
+        <Field Name="DedDesc_17_">
+          <DataField>DedDesc_17_</DataField>
+        </Field>
+        <Field Name="DedDesc_18_">
+          <DataField>DedDesc_18_</DataField>
+        </Field>
+        <Field Name="DedDesc_19_">
+          <DataField>DedDesc_19_</DataField>
+        </Field>
+        <Field Name="DedDesc_20_">
+          <DataField>DedDesc_20_</DataField>
+        </Field>
+        <Field Name="DedDesc_21_">
+          <DataField>DedDesc_21_</DataField>
+        </Field>
+        <Field Name="DedDesc_22_">
+          <DataField>DedDesc_22_</DataField>
+        </Field>
+        <Field Name="DedDesc_23_">
+          <DataField>DedDesc_23_</DataField>
+        </Field>
+        <Field Name="DedDesc_24_">
+          <DataField>DedDesc_24_</DataField>
+        </Field>
+        <Field Name="DedDesc_25_">
+          <DataField>DedDesc_25_</DataField>
+        </Field>
+        <Field Name="DedDesc_26_">
+          <DataField>DedDesc_26_</DataField>
+        </Field>
+        <Field Name="DedDesc_27_">
+          <DataField>DedDesc_27_</DataField>
+        </Field>
+        <Field Name="DedDesc_28_">
+          <DataField>DedDesc_28_</DataField>
+        </Field>
+        <Field Name="DedDesc_29_">
+          <DataField>DedDesc_29_</DataField>
+        </Field>
+        <Field Name="DedDesc_30_">
+          <DataField>DedDesc_30_</DataField>
+        </Field>
+        <Field Name="DedDesc_31_">
+          <DataField>DedDesc_31_</DataField>
+        </Field>
+        <Field Name="DedDesc_32_">
+          <DataField>DedDesc_32_</DataField>
+        </Field>
+        <Field Name="DedDesc_33_">
+          <DataField>DedDesc_33_</DataField>
+        </Field>
+        <Field Name="DedDesc_34_">
+          <DataField>DedDesc_34_</DataField>
+        </Field>
+        <Field Name="DedDesc_35_">
+          <DataField>DedDesc_35_</DataField>
+        </Field>
+        <Field Name="DedDesc_36_">
+          <DataField>DedDesc_36_</DataField>
+        </Field>
+        <Field Name="DedDesc_37_">
+          <DataField>DedDesc_37_</DataField>
+        </Field>
+        <Field Name="DedDesc_38_">
+          <DataField>DedDesc_38_</DataField>
+        </Field>
+        <Field Name="DedDesc_39_">
+          <DataField>DedDesc_39_</DataField>
+        </Field>
+        <Field Name="DedDesc_40_">
+          <DataField>DedDesc_40_</DataField>
+        </Field>
+        <Field Name="Other_Deductions_">
+          <DataField>Other_Deductions_</DataField>
+        </Field>
+        <Field Name="Net_Pay_">
+          <DataField>Net_Pay_</DataField>
+        </Field>
+        <Field Name="PF_No__">
+          <DataField>PF_No__</DataField>
+        </Field>
+        <Field Name="Name_">
+          <DataField>Name_</DataField>
+        </Field>
+        <Field Name="EarnDesc_1_">
+          <DataField>EarnDesc_1_</DataField>
+        </Field>
+        <Field Name="EarnDesc_2_">
+          <DataField>EarnDesc_2_</DataField>
+        </Field>
+        <Field Name="EarnDesc_3_">
+          <DataField>EarnDesc_3_</DataField>
+        </Field>
+        <Field Name="EarnDesc_4_">
+          <DataField>EarnDesc_4_</DataField>
+        </Field>
+        <Field Name="EarnDesc_5_">
+          <DataField>EarnDesc_5_</DataField>
+        </Field>
+        <Field Name="EarnDesc_6_">
+          <DataField>EarnDesc_6_</DataField>
+        </Field>
+        <Field Name="EarnDesc_7_">
+          <DataField>EarnDesc_7_</DataField>
+        </Field>
+        <Field Name="EarnDesc_8_">
+          <DataField>EarnDesc_8_</DataField>
+        </Field>
+        <Field Name="EarnDesc_9_">
+          <DataField>EarnDesc_9_</DataField>
+        </Field>
+        <Field Name="EarnDesc_10_">
+          <DataField>EarnDesc_10_</DataField>
+        </Field>
+        <Field Name="EarnDesc_11_">
+          <DataField>EarnDesc_11_</DataField>
+        </Field>
+        <Field Name="EarnDesc_12_">
+          <DataField>EarnDesc_12_</DataField>
+        </Field>
+        <Field Name="EarnDesc_13_">
+          <DataField>EarnDesc_13_</DataField>
+        </Field>
+        <Field Name="EarnDesc_14_">
+          <DataField>EarnDesc_14_</DataField>
+        </Field>
+        <Field Name="EarnDesc_15_">
+          <DataField>EarnDesc_15_</DataField>
+        </Field>
+        <Field Name="EarnDesc_16_">
+          <DataField>EarnDesc_16_</DataField>
+        </Field>
+        <Field Name="EarnDesc_17_">
+          <DataField>EarnDesc_17_</DataField>
+        </Field>
+        <Field Name="EarnDesc_18_">
+          <DataField>EarnDesc_18_</DataField>
+        </Field>
+        <Field Name="EarnDesc_19_">
+          <DataField>EarnDesc_19_</DataField>
+        </Field>
+        <Field Name="EarnDesc_20_">
+          <DataField>EarnDesc_20_</DataField>
+        </Field>
+        <Field Name="EarnDesc_21_">
+          <DataField>EarnDesc_21_</DataField>
+        </Field>
+        <Field Name="EarnDesc_22_">
+          <DataField>EarnDesc_22_</DataField>
+        </Field>
+        <Field Name="EarnDesc_23_">
+          <DataField>EarnDesc_23_</DataField>
+        </Field>
+        <Field Name="EarnDesc_24_">
+          <DataField>EarnDesc_24_</DataField>
+        </Field>
+        <Field Name="EarnDesc_25_">
+          <DataField>EarnDesc_25_</DataField>
+        </Field>
+        <Field Name="EarnDesc_26_">
+          <DataField>EarnDesc_26_</DataField>
+        </Field>
+        <Field Name="EarnDesc_27_">
+          <DataField>EarnDesc_27_</DataField>
+        </Field>
+        <Field Name="EarnDesc_28_">
+          <DataField>EarnDesc_28_</DataField>
+        </Field>
+        <Field Name="EarnDesc_29_">
+          <DataField>EarnDesc_29_</DataField>
+        </Field>
+        <Field Name="EarnDesc_30_">
+          <DataField>EarnDesc_30_</DataField>
+        </Field>
+        <Field Name="EarnDesc_31_">
+          <DataField>EarnDesc_31_</DataField>
+        </Field>
+        <Field Name="Employee__No__">
+          <DataField>Employee__No__</DataField>
+        </Field>
+        <Field Name="Deductions_1_">
+          <DataField>Deductions_1_</DataField>
+        </Field>
+        <Field Name="Deductions_1_Format">
+          <DataField>Deductions_1_Format</DataField>
+        </Field>
+        <Field Name="Deductions_2_">
+          <DataField>Deductions_2_</DataField>
+        </Field>
+        <Field Name="Deductions_2_Format">
+          <DataField>Deductions_2_Format</DataField>
+        </Field>
+        <Field Name="Deductions_3_">
+          <DataField>Deductions_3_</DataField>
+        </Field>
+        <Field Name="Deductions_3_Format">
+          <DataField>Deductions_3_Format</DataField>
+        </Field>
+        <Field Name="Deductions_4_">
+          <DataField>Deductions_4_</DataField>
+        </Field>
+        <Field Name="Deductions_4_Format">
+          <DataField>Deductions_4_Format</DataField>
+        </Field>
+        <Field Name="Deductions_5_">
+          <DataField>Deductions_5_</DataField>
+        </Field>
+        <Field Name="Deductions_5_Format">
+          <DataField>Deductions_5_Format</DataField>
+        </Field>
+        <Field Name="Deductions_6_">
+          <DataField>Deductions_6_</DataField>
+        </Field>
+        <Field Name="Deductions_6_Format">
+          <DataField>Deductions_6_Format</DataField>
+        </Field>
+        <Field Name="Deductions_7_">
+          <DataField>Deductions_7_</DataField>
+        </Field>
+        <Field Name="Deductions_7_Format">
+          <DataField>Deductions_7_Format</DataField>
+        </Field>
+        <Field Name="Deductions_8_">
+          <DataField>Deductions_8_</DataField>
+        </Field>
+        <Field Name="Deductions_8_Format">
+          <DataField>Deductions_8_Format</DataField>
+        </Field>
+        <Field Name="Deductions_9_">
+          <DataField>Deductions_9_</DataField>
+        </Field>
+        <Field Name="Deductions_9_Format">
+          <DataField>Deductions_9_Format</DataField>
+        </Field>
+        <Field Name="Deductions_10_">
+          <DataField>Deductions_10_</DataField>
+        </Field>
+        <Field Name="Deductions_10_Format">
+          <DataField>Deductions_10_Format</DataField>
+        </Field>
+        <Field Name="Deductions_11_">
+          <DataField>Deductions_11_</DataField>
+        </Field>
+        <Field Name="Deductions_11_Format">
+          <DataField>Deductions_11_Format</DataField>
+        </Field>
+        <Field Name="Deductions_12_">
+          <DataField>Deductions_12_</DataField>
+        </Field>
+        <Field Name="Deductions_12_Format">
+          <DataField>Deductions_12_Format</DataField>
+        </Field>
+        <Field Name="Deductions_13_">
+          <DataField>Deductions_13_</DataField>
+        </Field>
+        <Field Name="Deductions_13_Format">
+          <DataField>Deductions_13_Format</DataField>
+        </Field>
+        <Field Name="Deductions_14_">
+          <DataField>Deductions_14_</DataField>
+        </Field>
+        <Field Name="Deductions_14_Format">
+          <DataField>Deductions_14_Format</DataField>
+        </Field>
+        <Field Name="Deductions_15_">
+          <DataField>Deductions_15_</DataField>
+        </Field>
+        <Field Name="Deductions_15_Format">
+          <DataField>Deductions_15_Format</DataField>
+        </Field>
+        <Field Name="Deductions_16_">
+          <DataField>Deductions_16_</DataField>
+        </Field>
+        <Field Name="Deductions_16_Format">
+          <DataField>Deductions_16_Format</DataField>
+        </Field>
+        <Field Name="Deductions_17_">
+          <DataField>Deductions_17_</DataField>
+        </Field>
+        <Field Name="Deductions_17_Format">
+          <DataField>Deductions_17_Format</DataField>
+        </Field>
+        <Field Name="Deductions_18_">
+          <DataField>Deductions_18_</DataField>
+        </Field>
+        <Field Name="Deductions_18_Format">
+          <DataField>Deductions_18_Format</DataField>
+        </Field>
+        <Field Name="Deductions_19_">
+          <DataField>Deductions_19_</DataField>
+        </Field>
+        <Field Name="Deductions_19_Format">
+          <DataField>Deductions_19_Format</DataField>
+        </Field>
+        <Field Name="Deductions_20_">
+          <DataField>Deductions_20_</DataField>
+        </Field>
+        <Field Name="Deductions_20_Format">
+          <DataField>Deductions_20_Format</DataField>
+        </Field>
+        <Field Name="Deductions_21_">
+          <DataField>Deductions_21_</DataField>
+        </Field>
+        <Field Name="Deductions_21_Format">
+          <DataField>Deductions_21_Format</DataField>
+        </Field>
+        <Field Name="Deductions_23_">
+          <DataField>Deductions_23_</DataField>
+        </Field>
+        <Field Name="Deductions_23_Format">
+          <DataField>Deductions_23_Format</DataField>
+        </Field>
+        <Field Name="Deductions_24_">
+          <DataField>Deductions_24_</DataField>
+        </Field>
+        <Field Name="Deductions_24_Format">
+          <DataField>Deductions_24_Format</DataField>
+        </Field>
+        <Field Name="Deductions_25_">
+          <DataField>Deductions_25_</DataField>
+        </Field>
+        <Field Name="Deductions_25_Format">
+          <DataField>Deductions_25_Format</DataField>
+        </Field>
+        <Field Name="Deductions_22_">
+          <DataField>Deductions_22_</DataField>
+        </Field>
+        <Field Name="Deductions_22_Format">
+          <DataField>Deductions_22_Format</DataField>
+        </Field>
+        <Field Name="Deductions_26_">
+          <DataField>Deductions_26_</DataField>
+        </Field>
+        <Field Name="Deductions_26_Format">
+          <DataField>Deductions_26_Format</DataField>
+        </Field>
+        <Field Name="Deductions_27_">
+          <DataField>Deductions_27_</DataField>
+        </Field>
+        <Field Name="Deductions_27_Format">
+          <DataField>Deductions_27_Format</DataField>
+        </Field>
+        <Field Name="Deductions_28_">
+          <DataField>Deductions_28_</DataField>
+        </Field>
+        <Field Name="Deductions_28_Format">
+          <DataField>Deductions_28_Format</DataField>
+        </Field>
+        <Field Name="Deductions_29_">
+          <DataField>Deductions_29_</DataField>
+        </Field>
+        <Field Name="Deductions_29_Format">
+          <DataField>Deductions_29_Format</DataField>
+        </Field>
+        <Field Name="Deductions_30_">
+          <DataField>Deductions_30_</DataField>
+        </Field>
+        <Field Name="Deductions_30_Format">
+          <DataField>Deductions_30_Format</DataField>
+        </Field>
+        <Field Name="Deductions_31_">
+          <DataField>Deductions_31_</DataField>
+        </Field>
+        <Field Name="Deductions_31_Format">
+          <DataField>Deductions_31_Format</DataField>
+        </Field>
+        <Field Name="Deductions_32_">
+          <DataField>Deductions_32_</DataField>
+        </Field>
+        <Field Name="Deductions_32_Format">
+          <DataField>Deductions_32_Format</DataField>
+        </Field>
+        <Field Name="Deductions_33_">
+          <DataField>Deductions_33_</DataField>
+        </Field>
+        <Field Name="Deductions_33_Format">
+          <DataField>Deductions_33_Format</DataField>
+        </Field>
+        <Field Name="Deductions_34_">
+          <DataField>Deductions_34_</DataField>
+        </Field>
+        <Field Name="Deductions_34_Format">
+          <DataField>Deductions_34_Format</DataField>
+        </Field>
+        <Field Name="Deductions_35_">
+          <DataField>Deductions_35_</DataField>
+        </Field>
+        <Field Name="Deductions_35_Format">
+          <DataField>Deductions_35_Format</DataField>
+        </Field>
+        <Field Name="Deductions_36_">
+          <DataField>Deductions_36_</DataField>
+        </Field>
+        <Field Name="Deductions_36_Format">
+          <DataField>Deductions_36_Format</DataField>
+        </Field>
+        <Field Name="Deductions_37_">
+          <DataField>Deductions_37_</DataField>
+        </Field>
+        <Field Name="Deductions_37_Format">
+          <DataField>Deductions_37_Format</DataField>
+        </Field>
+        <Field Name="Deductions_38_">
+          <DataField>Deductions_38_</DataField>
+        </Field>
+        <Field Name="Deductions_38_Format">
+          <DataField>Deductions_38_Format</DataField>
+        </Field>
+        <Field Name="Deductions_39_">
+          <DataField>Deductions_39_</DataField>
+        </Field>
+        <Field Name="Deductions_39_Format">
+          <DataField>Deductions_39_Format</DataField>
+        </Field>
+        <Field Name="Deductions_40_">
+          <DataField>Deductions_40_</DataField>
+        </Field>
+        <Field Name="Deductions_40_Format">
+          <DataField>Deductions_40_Format</DataField>
+        </Field>
+        <Field Name="Total_Deductions">
+          <DataField>Total_Deductions</DataField>
+        </Field>
+        <Field Name="Total_DeductionsFormat">
+          <DataField>Total_DeductionsFormat</DataField>
+        </Field>
+        <Field Name="Total_DeductionsCaption">
+          <DataField>Total_DeductionsCaption</DataField>
+        </Field>
+        <Field Name="NetPay">
+          <DataField>NetPay</DataField>
+        </Field>
+        <Field Name="NetPayFormat">
+          <DataField>NetPayFormat</DataField>
+        </Field>
+        <Field Name="First_Name_________Middle_Name_______Last_Name_">
+          <DataField>First_Name_________Middle_Name_______Last_Name_</DataField>
+        </Field>
+        <Field Name="Allowances_1_">
+          <DataField>Allowances_1_</DataField>
+        </Field>
+        <Field Name="Allowances_1_Format">
+          <DataField>Allowances_1_Format</DataField>
+        </Field>
+        <Field Name="Allowances_2_">
+          <DataField>Allowances_2_</DataField>
+        </Field>
+        <Field Name="Allowances_2_Format">
+          <DataField>Allowances_2_Format</DataField>
+        </Field>
+        <Field Name="Allowances_3_">
+          <DataField>Allowances_3_</DataField>
+        </Field>
+        <Field Name="Allowances_3_Format">
+          <DataField>Allowances_3_Format</DataField>
+        </Field>
+        <Field Name="Allowances_4_">
+          <DataField>Allowances_4_</DataField>
+        </Field>
+        <Field Name="Allowances_4_Format">
+          <DataField>Allowances_4_Format</DataField>
+        </Field>
+        <Field Name="Allowances_5_">
+          <DataField>Allowances_5_</DataField>
+        </Field>
+        <Field Name="Allowances_5_Format">
+          <DataField>Allowances_5_Format</DataField>
+        </Field>
+        <Field Name="Allowances_6_">
+          <DataField>Allowances_6_</DataField>
+        </Field>
+        <Field Name="Allowances_6_Format">
+          <DataField>Allowances_6_Format</DataField>
+        </Field>
+        <Field Name="Allowances_7_">
+          <DataField>Allowances_7_</DataField>
+        </Field>
+        <Field Name="Allowances_7_Format">
+          <DataField>Allowances_7_Format</DataField>
+        </Field>
+        <Field Name="Allowances_8_">
+          <DataField>Allowances_8_</DataField>
+        </Field>
+        <Field Name="Allowances_8_Format">
+          <DataField>Allowances_8_Format</DataField>
+        </Field>
+        <Field Name="Allowances_9_">
+          <DataField>Allowances_9_</DataField>
+        </Field>
+        <Field Name="Allowances_9_Format">
+          <DataField>Allowances_9_Format</DataField>
+        </Field>
+        <Field Name="Allowances_10_">
+          <DataField>Allowances_10_</DataField>
+        </Field>
+        <Field Name="Allowances_10_Format">
+          <DataField>Allowances_10_Format</DataField>
+        </Field>
+        <Field Name="Allowances_11_">
+          <DataField>Allowances_11_</DataField>
+        </Field>
+        <Field Name="Allowances_11_Format">
+          <DataField>Allowances_11_Format</DataField>
+        </Field>
+        <Field Name="Allowances_12_">
+          <DataField>Allowances_12_</DataField>
+        </Field>
+        <Field Name="Allowances_12_Format">
+          <DataField>Allowances_12_Format</DataField>
+        </Field>
+        <Field Name="Allowances_13_">
+          <DataField>Allowances_13_</DataField>
+        </Field>
+        <Field Name="Allowances_13_Format">
+          <DataField>Allowances_13_Format</DataField>
+        </Field>
+        <Field Name="Allowances_14_">
+          <DataField>Allowances_14_</DataField>
+        </Field>
+        <Field Name="Allowances_14_Format">
+          <DataField>Allowances_14_Format</DataField>
+        </Field>
+        <Field Name="Allowances_15_">
+          <DataField>Allowances_15_</DataField>
+        </Field>
+        <Field Name="Allowances_15_Format">
+          <DataField>Allowances_15_Format</DataField>
+        </Field>
+        <Field Name="Allowances_16_">
+          <DataField>Allowances_16_</DataField>
+        </Field>
+        <Field Name="Allowances_16_Format">
+          <DataField>Allowances_16_Format</DataField>
+        </Field>
+        <Field Name="Allowances_17_">
+          <DataField>Allowances_17_</DataField>
+        </Field>
+        <Field Name="Allowances_17_Format">
+          <DataField>Allowances_17_Format</DataField>
+        </Field>
+        <Field Name="Allowances_18_">
+          <DataField>Allowances_18_</DataField>
+        </Field>
+        <Field Name="Allowances_18_Format">
+          <DataField>Allowances_18_Format</DataField>
+        </Field>
+        <Field Name="Allowances_19_">
+          <DataField>Allowances_19_</DataField>
+        </Field>
+        <Field Name="Allowances_19_Format">
+          <DataField>Allowances_19_Format</DataField>
+        </Field>
+        <Field Name="Allowances_20_">
+          <DataField>Allowances_20_</DataField>
+        </Field>
+        <Field Name="Allowances_20_Format">
+          <DataField>Allowances_20_Format</DataField>
+        </Field>
+        <Field Name="Allowances_21_">
+          <DataField>Allowances_21_</DataField>
+        </Field>
+        <Field Name="Allowances_21_Format">
+          <DataField>Allowances_21_Format</DataField>
+        </Field>
+        <Field Name="Allowances_22_">
+          <DataField>Allowances_22_</DataField>
+        </Field>
+        <Field Name="Allowances_22_Format">
+          <DataField>Allowances_22_Format</DataField>
+        </Field>
+        <Field Name="Allowances_23_">
+          <DataField>Allowances_23_</DataField>
+        </Field>
+        <Field Name="Allowances_23_Format">
+          <DataField>Allowances_23_Format</DataField>
+        </Field>
+        <Field Name="Allowances_24_">
+          <DataField>Allowances_24_</DataField>
+        </Field>
+        <Field Name="Allowances_24_Format">
+          <DataField>Allowances_24_Format</DataField>
+        </Field>
+        <Field Name="Allowances_25_">
+          <DataField>Allowances_25_</DataField>
+        </Field>
+        <Field Name="Allowances_25_Format">
+          <DataField>Allowances_25_Format</DataField>
+        </Field>
+        <Field Name="Allowances_26_">
+          <DataField>Allowances_26_</DataField>
+        </Field>
+        <Field Name="Allowances_26_Format">
+          <DataField>Allowances_26_Format</DataField>
+        </Field>
+        <Field Name="Allowances_27_">
+          <DataField>Allowances_27_</DataField>
+        </Field>
+        <Field Name="Allowances_27_Format">
+          <DataField>Allowances_27_Format</DataField>
+        </Field>
+        <Field Name="Allowances_28_">
+          <DataField>Allowances_28_</DataField>
+        </Field>
+        <Field Name="Allowances_28_Format">
+          <DataField>Allowances_28_Format</DataField>
+        </Field>
+        <Field Name="Allowances_29_">
+          <DataField>Allowances_29_</DataField>
+        </Field>
+        <Field Name="Allowances_29_Format">
+          <DataField>Allowances_29_Format</DataField>
+        </Field>
+        <Field Name="Allowances_30_">
+          <DataField>Allowances_30_</DataField>
+        </Field>
+        <Field Name="Allowances_30_Format">
+          <DataField>Allowances_30_Format</DataField>
+        </Field>
+        <Field Name="Allowances_31_">
+          <DataField>Allowances_31_</DataField>
+        </Field>
+        <Field Name="Allowances_31_Format">
+          <DataField>Allowances_31_Format</DataField>
+        </Field>
+        <Field Name="DataItem46">
+          <DataField>DataItem46</DataField>
+        </Field>
+        <Field Name="DataItem46Format">
+          <DataField>DataItem46Format</DataField>
+        </Field>
+        <Field Name="STRSUBSTNO__Employees__1__counter_">
+          <DataField>STRSUBSTNO__Employees__1__counter_</DataField>
+        </Field>
+        <Field Name="Prepared_By______________________________________________________">
+          <DataField>Prepared_By______________________________________________________</DataField>
+        </Field>
+        <Field Name="Approved_By_____________________________________________________">
+          <DataField>Approved_By_____________________________________________________</DataField>
+        </Field>
+        <Field Name="Approved_By_____________________________________________">
+          <DataField>Approved_By_____________________________________________</DataField>
+        </Field>
+        <Field Name="OtherDeduct">
+          <DataField>OtherDeduct</DataField>
+        </Field>
+        <Field Name="OtherDeductFormat">
+          <DataField>OtherDeductFormat</DataField>
+        </Field>
+        <Field Name="OtherEarn_Control1000000076">
+          <DataField>OtherEarn_Control1000000076</DataField>
+        </Field>
+        <Field Name="OtherEarn_Control1000000076Format">
+          <DataField>OtherEarn_Control1000000076Format</DataField>
+        </Field>
+        <Field Name="Deductions_1__Control1000000077">
+          <DataField>Deductions_1__Control1000000077</DataField>
+        </Field>
+        <Field Name="Deductions_1__Control1000000077Format">
+          <DataField>Deductions_1__Control1000000077Format</DataField>
+        </Field>
+        <Field Name="Deductions_2__Control1000000078">
+          <DataField>Deductions_2__Control1000000078</DataField>
+        </Field>
+        <Field Name="Deductions_2__Control1000000078Format">
+          <DataField>Deductions_2__Control1000000078Format</DataField>
+        </Field>
+        <Field Name="Deductions_3__Control1000000081">
+          <DataField>Deductions_3__Control1000000081</DataField>
+        </Field>
+        <Field Name="Deductions_3__Control1000000081Format">
+          <DataField>Deductions_3__Control1000000081Format</DataField>
+        </Field>
+        <Field Name="Deductions_4__Control1000000079">
+          <DataField>Deductions_4__Control1000000079</DataField>
+        </Field>
+        <Field Name="Deductions_4__Control1000000079Format">
+          <DataField>Deductions_4__Control1000000079Format</DataField>
+        </Field>
+        <Field Name="Deductions_5__Control1000000077">
+          <DataField>Deductions_5__Control1000000077</DataField>
+        </Field>
+        <Field Name="Deductions_5__Control1000000077Format">
+          <DataField>Deductions_5__Control1000000077Format</DataField>
+        </Field>
+        <Field Name="Deductions_6__Control1000000078">
+          <DataField>Deductions_6__Control1000000078</DataField>
+        </Field>
+        <Field Name="Deductions_6__Control1000000078Format">
+          <DataField>Deductions_6__Control1000000078Format</DataField>
+        </Field>
+        <Field Name="Deductions_7__Control1000000081">
+          <DataField>Deductions_7__Control1000000081</DataField>
+        </Field>
+        <Field Name="Deductions_7__Control1000000081Format">
+          <DataField>Deductions_7__Control1000000081Format</DataField>
+        </Field>
+        <Field Name="Deductions_8__Control1000000079">
+          <DataField>Deductions_8__Control1000000079</DataField>
+        </Field>
+        <Field Name="Deductions_8__Control1000000079Format">
+          <DataField>Deductions_8__Control1000000079Format</DataField>
+        </Field>
+        <Field Name="Deductions_9__Control1000000077">
+          <DataField>Deductions_9__Control1000000077</DataField>
+        </Field>
+        <Field Name="Deductions_9__Control1000000077Format">
+          <DataField>Deductions_9__Control1000000077Format</DataField>
+        </Field>
+        <Field Name="Deductions_10__Control1000000078">
+          <DataField>Deductions_10__Control1000000078</DataField>
+        </Field>
+        <Field Name="Deductions_10__Control1000000078Format">
+          <DataField>Deductions_10__Control1000000078Format</DataField>
+        </Field>
+        <Field Name="Deductions_11__Control1000000081">
+          <DataField>Deductions_11__Control1000000081</DataField>
+        </Field>
+        <Field Name="Deductions_11__Control1000000081Format">
+          <DataField>Deductions_11__Control1000000081Format</DataField>
+        </Field>
+        <Field Name="Deductions_12__Control1000000079">
+          <DataField>Deductions_12__Control1000000079</DataField>
+        </Field>
+        <Field Name="Deductions_12__Control1000000079Format">
+          <DataField>Deductions_12__Control1000000079Format</DataField>
+        </Field>
+        <Field Name="Deductions_13__Control1000000077">
+          <DataField>Deductions_13__Control1000000077</DataField>
+        </Field>
+        <Field Name="Deductions_13__Control1000000077Format">
+          <DataField>Deductions_13__Control1000000077Format</DataField>
+        </Field>
+        <Field Name="Deductions_14__Control1000000078">
+          <DataField>Deductions_14__Control1000000078</DataField>
+        </Field>
+        <Field Name="Deductions_14__Control1000000078Format">
+          <DataField>Deductions_14__Control1000000078Format</DataField>
+        </Field>
+        <Field Name="Deductions_15__Control1000000081">
+          <DataField>Deductions_15__Control1000000081</DataField>
+        </Field>
+        <Field Name="Deductions_15__Control1000000081Format">
+          <DataField>Deductions_15__Control1000000081Format</DataField>
+        </Field>
+        <Field Name="Deductions_16__Control1000000079">
+          <DataField>Deductions_16__Control1000000079</DataField>
+        </Field>
+        <Field Name="Deductions_16__Control1000000079Format">
+          <DataField>Deductions_16__Control1000000079Format</DataField>
+        </Field>
+        <Field Name="Deductions_17__Control1000000077">
+          <DataField>Deductions_17__Control1000000077</DataField>
+        </Field>
+        <Field Name="Deductions_17__Control1000000077Format">
+          <DataField>Deductions_17__Control1000000077Format</DataField>
+        </Field>
+        <Field Name="Deductions_18__Control1000000078">
+          <DataField>Deductions_18__Control1000000078</DataField>
+        </Field>
+        <Field Name="Deductions_18__Control1000000078Format">
+          <DataField>Deductions_18__Control1000000078Format</DataField>
+        </Field>
+        <Field Name="Deductions_19__Control1000000081">
+          <DataField>Deductions_19__Control1000000081</DataField>
+        </Field>
+        <Field Name="Deductions_19__Control1000000081Format">
+          <DataField>Deductions_19__Control1000000081Format</DataField>
+        </Field>
+        <Field Name="Deductions_20__Control1000000079">
+          <DataField>Deductions_20__Control1000000079</DataField>
+        </Field>
+        <Field Name="Deductions_20__Control1000000079Format">
+          <DataField>Deductions_20__Control1000000079Format</DataField>
+        </Field>
+        <Field Name="OtherDeduct_Control1000000080">
+          <DataField>OtherDeduct_Control1000000080</DataField>
+        </Field>
+        <Field Name="OtherDeduct_Control1000000080Format">
+          <DataField>OtherDeduct_Control1000000080Format</DataField>
+        </Field>
+        <Field Name="Allowances_1__Control1000000000">
+          <DataField>Allowances_1__Control1000000000</DataField>
+        </Field>
+        <Field Name="Allowances_1__Control1000000000Format">
+          <DataField>Allowances_1__Control1000000000Format</DataField>
+        </Field>
+        <Field Name="Allowances_2__Control1000000012">
+          <DataField>Allowances_2__Control1000000012</DataField>
+        </Field>
+        <Field Name="Allowances_2__Control1000000012Format">
+          <DataField>Allowances_2__Control1000000012Format</DataField>
+        </Field>
+        <Field Name="Allowances_3__Control1000000013">
+          <DataField>Allowances_3__Control1000000013</DataField>
+        </Field>
+        <Field Name="Allowances_3__Control1000000013Format">
+          <DataField>Allowances_3__Control1000000013Format</DataField>
+        </Field>
+        <Field Name="Allowances_4__Control1000000063">
+          <DataField>Allowances_4__Control1000000063</DataField>
+        </Field>
+        <Field Name="Allowances_4__Control1000000063Format">
+          <DataField>Allowances_4__Control1000000063Format</DataField>
+        </Field>
+        <Field Name="Allowances_5__Control1000000084">
+          <DataField>Allowances_5__Control1000000084</DataField>
+        </Field>
+        <Field Name="Allowances_5__Control1000000084Format">
+          <DataField>Allowances_5__Control1000000084Format</DataField>
+        </Field>
+        <Field Name="Allowances_6__Control1000000085">
+          <DataField>Allowances_6__Control1000000085</DataField>
+        </Field>
+        <Field Name="Allowances_6__Control1000000085Format">
+          <DataField>Allowances_6__Control1000000085Format</DataField>
+        </Field>
+        <Field Name="Allowances_7__Control1000000086">
+          <DataField>Allowances_7__Control1000000086</DataField>
+        </Field>
+        <Field Name="Allowances_7__Control1000000086Format">
+          <DataField>Allowances_7__Control1000000086Format</DataField>
+        </Field>
+        <Field Name="Allowances_8__Control1000000087">
+          <DataField>Allowances_8__Control1000000087</DataField>
+        </Field>
+        <Field Name="Allowances_8__Control1000000087Format">
+          <DataField>Allowances_8__Control1000000087Format</DataField>
+        </Field>
+        <Field Name="Allowances_9__Control1000000088">
+          <DataField>Allowances_9__Control1000000088</DataField>
+        </Field>
+        <Field Name="Allowances_9__Control1000000088Format">
+          <DataField>Allowances_9__Control1000000088Format</DataField>
+        </Field>
+        <Field Name="Allowances_10__Control1000000089">
+          <DataField>Allowances_10__Control1000000089</DataField>
+        </Field>
+        <Field Name="Allowances_10__Control1000000089Format">
+          <DataField>Allowances_10__Control1000000089Format</DataField>
+        </Field>
+        <Field Name="Allowances_11__Control1000000090">
+          <DataField>Allowances_11__Control1000000090</DataField>
+        </Field>
+        <Field Name="Allowances_11__Control1000000090Format">
+          <DataField>Allowances_11__Control1000000090Format</DataField>
+        </Field>
+        <Field Name="Allowances_12__Control1000000091">
+          <DataField>Allowances_12__Control1000000091</DataField>
+        </Field>
+        <Field Name="Allowances_12__Control1000000091Format">
+          <DataField>Allowances_12__Control1000000091Format</DataField>
+        </Field>
+        <Field Name="Allowances_13__Control1000000092">
+          <DataField>Allowances_13__Control1000000092</DataField>
+        </Field>
+        <Field Name="Allowances_13__Control1000000092Format">
+          <DataField>Allowances_13__Control1000000092Format</DataField>
+        </Field>
+        <Field Name="Allowances_14__Control1000000093">
+          <DataField>Allowances_14__Control1000000093</DataField>
+        </Field>
+        <Field Name="Allowances_14__Control1000000093Format">
+          <DataField>Allowances_14__Control1000000093Format</DataField>
+        </Field>
+        <Field Name="Allowances_15__Control1000000094">
+          <DataField>Allowances_15__Control1000000094</DataField>
+        </Field>
+        <Field Name="Allowances_15__Control1000000094Format">
+          <DataField>Allowances_15__Control1000000094Format</DataField>
+        </Field>
+        <Field Name="Allowances_16__Control1000000095">
+          <DataField>Allowances_16__Control1000000095</DataField>
+        </Field>
+        <Field Name="Allowances_16__Control1000000095Format">
+          <DataField>Allowances_16__Control1000000095Format</DataField>
+        </Field>
+        <Field Name="NetPay_Control1000000102">
+          <DataField>NetPay_Control1000000102</DataField>
+        </Field>
+        <Field Name="NetPay_Control1000000102Format">
+          <DataField>NetPay_Control1000000102Format</DataField>
+        </Field>
+        <Field Name="DataItem6">
+          <DataField>DataItem6</DataField>
+        </Field>
+        <Field Name="DataItem6Format">
+          <DataField>DataItem6Format</DataField>
+        </Field>
+        <Field Name="MASTER_ROLLCaption">
+          <DataField>MASTER_ROLLCaption</DataField>
+        </Field>
+        <Field Name="CurrReport_PAGENOCaption">
+          <DataField>CurrReport_PAGENOCaption</DataField>
+        </Field>
+        <Field Name="Other_AllowancesCaption">
+          <DataField>Other_AllowancesCaption</DataField>
+        </Field>
+        <Field Name="Total_AllowancesCaption">
+          <DataField>Total_AllowancesCaption</DataField>
+        </Field>
+        <Field Name="TOTALSCaption">
+          <DataField>TOTALSCaption</DataField>
+        </Field>
+        <Field Name="TotalAllowances_">
+          <DataField>TotalAllowances_</DataField>
+        </Field>
+        <Field Name="TotalAllowances_Format">
+          <DataField>TotalAllowances_Format</DataField>
+        </Field>
+        <Field Name="CompanyInf_Picture">
+          <DataField>CompanyInf_Picture</DataField>
+        </Field>
+        <Field Name="NonCashBenefitDesc_1">
+          <DataField>NonCashBenefitDesc_1</DataField>
+        </Field>
+        <Field Name="NonCashBenefitDesc_2">
+          <DataField>NonCashBenefitDesc_2</DataField>
+        </Field>
+        <Field Name="NonCashBenefitDesc_3">
+          <DataField>NonCashBenefitDesc_3</DataField>
+        </Field>
+        <Field Name="NonCashBenefitDesc_4">
+          <DataField>NonCashBenefitDesc_4</DataField>
+        </Field>
+        <Field Name="NonCashBenefitDesc_5">
+          <DataField>NonCashBenefitDesc_5</DataField>
+        </Field>
+        <Field Name="NonCashBenefitDesc_6">
+          <DataField>NonCashBenefitDesc_6</DataField>
+        </Field>
+        <Field Name="NonCashBenefitDesc_7">
+          <DataField>NonCashBenefitDesc_7</DataField>
+        </Field>
+        <Field Name="NonCashBenefitAmount_1">
+          <DataField>NonCashBenefitAmount_1</DataField>
+        </Field>
+        <Field Name="NonCashBenefitAmount_1Format">
+          <DataField>NonCashBenefitAmount_1Format</DataField>
+        </Field>
+        <Field Name="NonCashBenefitAmount_2">
+          <DataField>NonCashBenefitAmount_2</DataField>
+        </Field>
+        <Field Name="NonCashBenefitAmount_2Format">
+          <DataField>NonCashBenefitAmount_2Format</DataField>
+        </Field>
+        <Field Name="NonCashBenefitAmount_3">
+          <DataField>NonCashBenefitAmount_3</DataField>
+        </Field>
+        <Field Name="NonCashBenefitAmount_3Format">
+          <DataField>NonCashBenefitAmount_3Format</DataField>
+        </Field>
+        <Field Name="NonCashBenefitAmount_4">
+          <DataField>NonCashBenefitAmount_4</DataField>
+        </Field>
+        <Field Name="NonCashBenefitAmount_4Format">
+          <DataField>NonCashBenefitAmount_4Format</DataField>
+        </Field>
+        <Field Name="NonCashBenefitAmount_5">
+          <DataField>NonCashBenefitAmount_5</DataField>
+        </Field>
+        <Field Name="NonCashBenefitAmount_5Format">
+          <DataField>NonCashBenefitAmount_5Format</DataField>
+        </Field>
+        <Field Name="NonCashBenefitAmount_6">
+          <DataField>NonCashBenefitAmount_6</DataField>
+        </Field>
+        <Field Name="NonCashBenefitAmount_6Format">
+          <DataField>NonCashBenefitAmount_6Format</DataField>
+        </Field>
+        <Field Name="NonCashBenefitAmount_7">
+          <DataField>NonCashBenefitAmount_7</DataField>
+        </Field>
+        <Field Name="NonCashBenefitAmount_7Format">
+          <DataField>NonCashBenefitAmount_7Format</DataField>
+        </Field>
+        <Field Name="PensionAddback_">
+          <DataField>PensionAddback_</DataField>
+        </Field>
+        <Field Name="PensionAddback_Format">
+          <DataField>PensionAddback_Format</DataField>
+        </Field>
+        <Field Name="PensionValue">
+          <DataField>PensionValue</DataField>
+        </Field>
+        <Field Name="PensionValueFormat">
+          <DataField>PensionValueFormat</DataField>
+        </Field>
+        <Field Name="ErAmts1">
+          <DataField>ErAmts1</DataField>
+        </Field>
+        <Field Name="ErAmts1Format">
+          <DataField>ErAmts1Format</DataField>
+        </Field>
+        <Field Name="ErAmts2">
+          <DataField>ErAmts2</DataField>
+        </Field>
+        <Field Name="ErAmts2Format">
+          <DataField>ErAmts2Format</DataField>
+        </Field>
+        <Field Name="ErAmts3">
+          <DataField>ErAmts3</DataField>
+        </Field>
+        <Field Name="ErAmts3Format">
+          <DataField>ErAmts3Format</DataField>
+        </Field>
+        <Field Name="ErAmts4">
+          <DataField>ErAmts4</DataField>
+        </Field>
+        <Field Name="ErAmts4Format">
+          <DataField>ErAmts4Format</DataField>
+        </Field>
+        <Field Name="ErAmts5">
+          <DataField>ErAmts5</DataField>
+        </Field>
+        <Field Name="ErAmts5Format">
+          <DataField>ErAmts5Format</DataField>
+        </Field>
+        <Field Name="ErAmts6">
+          <DataField>ErAmts6</DataField>
+        </Field>
+        <Field Name="ErAmts6Format">
+          <DataField>ErAmts6Format</DataField>
+        </Field>
+        <Field Name="ErAmts7">
+          <DataField>ErAmts7</DataField>
+        </Field>
+        <Field Name="ErAmts7Format">
+          <DataField>ErAmts7Format</DataField>
+        </Field>
+        <Field Name="ErAmts8">
+          <DataField>ErAmts8</DataField>
+        </Field>
+        <Field Name="ErAmts8Format">
+          <DataField>ErAmts8Format</DataField>
+        </Field>
+        <Field Name="ErAmts9">
+          <DataField>ErAmts9</DataField>
+        </Field>
+        <Field Name="ErAmts9Format">
+          <DataField>ErAmts9Format</DataField>
+        </Field>
+        <Field Name="ErAmts10">
+          <DataField>ErAmts10</DataField>
+        </Field>
+        <Field Name="ErAmts10Format">
+          <DataField>ErAmts10Format</DataField>
+        </Field>
+        <Field Name="ErDescript1">
+          <DataField>ErDescript1</DataField>
+        </Field>
+        <Field Name="ErDescript2">
+          <DataField>ErDescript2</DataField>
+        </Field>
+        <Field Name="ErDescript3">
+          <DataField>ErDescript3</DataField>
+        </Field>
+        <Field Name="ErDescript4">
+          <DataField>ErDescript4</DataField>
+        </Field>
+        <Field Name="ErDescript5">
+          <DataField>ErDescript5</DataField>
+        </Field>
+        <Field Name="ErDescript6">
+          <DataField>ErDescript6</DataField>
+        </Field>
+        <Field Name="ErDescript7">
+          <DataField>ErDescript7</DataField>
+        </Field>
+        <Field Name="ErDescript8">
+          <DataField>ErDescript8</DataField>
+        </Field>
+        <Field Name="ErDescript9">
+          <DataField>ErDescript9</DataField>
+        </Field>
+        <Field Name="ErDescript10">
+          <DataField>ErDescript10</DataField>
+        </Field>
+        <Field Name="Voluntary_Pension">
+          <DataField>Voluntary_Pension</DataField>
+        </Field>
+        <Field Name="Voluntary_PensionFormat">
+          <DataField>Voluntary_PensionFormat</DataField>
+        </Field>
+        <Field Name="Employer_Pension">
+          <DataField>Employer_Pension</DataField>
+        </Field>
+        <Field Name="Employer_PensionFormat">
+          <DataField>Employer_PensionFormat</DataField>
+        </Field>
+        <Field Name="ShowPension">
+          <DataField>ShowPension</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
+</Report>

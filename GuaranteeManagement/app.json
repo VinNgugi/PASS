@@ -1,0 +1,27 @@
+{
+  "id": "d197ecd2-64ee-46f9-8e3d-9292ccfdc238",
+  "name": "Guarantee Management",
+  "publisher": "AES Ltd",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies":[],
+  "screenshots": [],
+  "platform": "14.0.0.0",
+  "application": "14.0.0.0",
+  "idRanges": [
+    {
+      "from": 51513000,
+      "to": 51515999
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://GuaranteeManagement.com/help/",
+  "showMyCode": true,
+  "runtime": "3.0",
+  "target": "Internal"
+}

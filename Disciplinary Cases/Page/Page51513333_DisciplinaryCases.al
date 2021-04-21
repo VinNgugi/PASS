@@ -1,0 +1,70 @@
+page 51513333 "Disciplinary Cases"
+{
+    // version HR
+    caption = 'Disciplinary Cases';
+    CardPageID = "Disciplinary Cases Card";
+    PageType = List;
+    UsageCategory = Lists;
+    SourceTable = "Disciplinary Cases";
+    SourceTableView = WHERE ("Case Status" = CONST (New));
+
+    layout
+    {
+        area(content)
+        {
+            repeater(General)
+            {
+                field("Case No"; "Case No")
+                {
+                }
+                field("Case Description"; "Case Description")
+                {
+                }
+                field("Date of the Case"; "Date of the Case")
+                {
+                }
+                field("Offense Type"; "Offense Type")
+                {
+                }
+                field("Offense Name"; "Offense Name")
+                {
+                }
+                field("Employee No"; "Employee No")
+                {
+                }
+                field("Employee Name"; "Employee Name")
+                {
+                }
+                field("Case Status"; "Case Status")
+                {
+                }
+                field("HOD Name"; "HOD Name")
+                {
+                }
+                field("HOD Recommendation"; "HOD Recommendation")
+                {
+                }
+                field("HR Recommendation"; "HR Recommendation")
+                {
+                }
+                field("Commitee Recommendation"; "Commitee Recommendation")
+                {
+                }
+                field("Action Taken"; "Action Taken")
+                {
+                }
+                field(Appealed; Appealed)
+                {
+                }
+                field("Committee Recon After Appeal"; "Committee Recon After Appeal")
+                {
+                }
+            }
+        }
+    }
+
+    actions
+    {
+    }
+}
+

@@ -1,0 +1,62 @@
+{
+  "id": "a00e014e-d644-479f-8b7f-11dd121ac049",
+  "name": "Finance ",
+  "publisher": "AES Ltd",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": 
+  [
+    {
+      "appId":"40224ef7-0252-4257-8995-31cf26109c9f",
+      "name": "Recruitment",
+      "publisher": "AES Ltd",
+      "version": "1.0.0.0"
+      },
+      
+      {
+        "appId":"d197ecd2-64ee-46f9-8e3d-9292ccfdc238",
+        "name": "Guarantee Management",
+        "publisher": "AES Ltd",
+        "version": "1.0.0.0"
+      },
+      {
+        "appId": "bf49302b-87ce-4aec-b602-f56540933e8f",
+        "name": "AIC Management",
+        "publisher": "AES Ltd",
+        "version": "1.0.0.0"
+      } ,
+      {
+        "appId": "30a2b908-00bf-4795-9926-6549f0d95a32",
+        "name": "Claim Management",
+        "publisher": "AES Ltd",
+        "version": "1.0.0.0"
+      }
+      ,
+      {
+        "appId": "d1ce8fac-e65c-4b63-8864-ef36a06d5dfc",
+        "name": "Employee Manager",
+        "publisher": "AES Ltd",
+        "version": "1.0.0.0"
+      }
+  ],
+  
+  "screenshots": [],
+  "platform": "14.0.0.0",
+  "application": "14.0.0.0",
+  "idRanges": [
+    {
+      "from": 51513000,
+      "to": 51515999
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://Finance.com/help/",
+  "showMyCode": true,
+  "runtime": "3.0",
+  "target":"Internal"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "0e17c15c-550f-4ed6-a8e8-b512f68bb759",
+  "name": "Training",
+  "publisher": "AES Ltd",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": 
+  [
+    {
+      "appId": "40224ef7-0252-4257-8995-31cf26109c9f",
+    "name": "Recruitment",
+    "publisher": "AES Ltd",
+    "version": "1.0.0.0"
+      },
+
+      {
+        "appId": "d1ce8fac-e65c-4b63-8864-ef36a06d5dfc",
+    "name": "Employee Manager",
+    "publisher": "AES Ltd",
+    "version": "1.0.0.0"
+        }
+     
+  ],
+  "screenshots": [],
+  "platform": "14.0.0.0",
+  "application": "14.0.0.0",
+  "idRanges": [
+    {
+      "from": 51513000,
+      "to": 51515999
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://Training.com/help/",
+  "showMyCode": true,
+  "runtime": "3.0",
+  "target":"Internal"
+}

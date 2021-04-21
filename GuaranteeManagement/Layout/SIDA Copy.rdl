@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
+    </DataSource>
+  </DataSources>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <Height>2in</Height>
+        <Style />
+      </Body>
+      <Width>6.5in</Width>
+      <Page>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+</Code>
+  <Language>=User!Language</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="Loan_ID__">
+          <DataField>Loan_ID__</DataField>
+        </Field>
+        <Field Name="No_">
+          <DataField>No_</DataField>
+        </Field>
+        <Field Name="Borrower__Name">
+          <DataField>Borrower__Name</DataField>
+        </Field>
+        <Field Name="Type_of_Facility">
+          <DataField>Type_of_Facility</DataField>
+        </Field>
+        <Field Name="Gender">
+          <DataField>Gender</DataField>
+        </Field>
+        <Field Name="Guaranteed_Party__">
+          <DataField>Guaranteed_Party__</DataField>
+        </Field>
+        <Field Name="Reporting__Date">
+          <DataField>Reporting__Date</DataField>
+        </Field>
+        <Field Name="Start__Date">
+          <DataField>Start__Date</DataField>
+        </Field>
+        <Field Name="Maturity_date_">
+          <DataField>Maturity_date_</DataField>
+        </Field>
+        <Field Name="Date__Guaranteed__">
+          <DataField>Date__Guaranteed__</DataField>
+        </Field>
+        <Field Name="Loan__Amount">
+          <DataField>Loan__Amount</DataField>
+        </Field>
+        <Field Name="Loan__AmountFormat">
+          <DataField>Loan__AmountFormat</DataField>
+        </Field>
+        <Field Name="Currency__">
+          <DataField>Currency__</DataField>
+        </Field>
+        <Field Name="Country__">
+          <DataField>Country__</DataField>
+        </Field>
+        <Field Name="City_Town__">
+          <DataField>City_Town__</DataField>
+        </Field>
+        <Field Name="State_Province_Region_">
+          <DataField>State_Province_Region_</DataField>
+        </Field>
+        <Field Name="Business_Sector__">
+          <DataField>Business_Sector__</DataField>
+        </Field>
+        <Field Name="Additional__Information_">
+          <DataField>Additional__Information_</DataField>
+        </Field>
+        <Field Name="Purpose__Of__Loan__">
+          <DataField>Purpose__Of__Loan__</DataField>
+        </Field>
+        <Field Name="Guarantee__Percent">
+          <DataField>Guarantee__Percent</DataField>
+        </Field>
+        <Field Name="Guarantee__PercentFormat">
+          <DataField>Guarantee__PercentFormat</DataField>
+        </Field>
+        <Field Name="PASS_Guarantee_Amount">
+          <DataField>PASS_Guarantee_Amount</DataField>
+        </Field>
+        <Field Name="PASS_Guarantee_AmountFormat">
+          <DataField>PASS_Guarantee_AmountFormat</DataField>
+        </Field>
+        <Field Name="SIDAPerc">
+          <DataField>SIDAPerc</DataField>
+        </Field>
+        <Field Name="SIDAPercFormat">
+          <DataField>SIDAPercFormat</DataField>
+        </Field>
+        <Field Name="SIDAfee">
+          <DataField>SIDAfee</DataField>
+        </Field>
+        <Field Name="SIDAfeeFormat">
+          <DataField>SIDAfeeFormat</DataField>
+        </Field>
+        <Field Name="SIDACommitmentAmt">
+          <DataField>SIDACommitmentAmt</DataField>
+        </Field>
+        <Field Name="SIDACommitmentAmtFormat">
+          <DataField>SIDACommitmentAmtFormat</DataField>
+        </Field>
+        <Field Name="SIDAfeeQtr">
+          <DataField>SIDAfeeQtr</DataField>
+        </Field>
+        <Field Name="SIDAfeeQtrFormat">
+          <DataField>SIDAfeeQtrFormat</DataField>
+        </Field>
+        <Field Name="SIDAAccumulated">
+          <DataField>SIDAAccumulated</DataField>
+        </Field>
+        <Field Name="SIDAAccumulatedFormat">
+          <DataField>SIDAAccumulatedFormat</DataField>
+        </Field>
+        <Field Name="Page_No_">
+          <DataField>Page_No_</DataField>
+        </Field>
+        <Field Name="Loan_Id_Caption">
+          <DataField>Loan_Id_Caption</DataField>
+        </Field>
+        <Field Name="Guaranteed_Party_Caption">
+          <DataField>Guaranteed_Party_Caption</DataField>
+        </Field>
+        <Field Name="Borrower_Name_Caption">
+          <DataField>Borrower_Name_Caption</DataField>
+        </Field>
+        <Field Name="Reporting_date_Caption">
+          <DataField>Reporting_date_Caption</DataField>
+        </Field>
+        <Field Name="Type_caption">
+          <DataField>Type_caption</DataField>
+        </Field>
+        <Field Name="Start_date_caption">
+          <DataField>Start_date_caption</DataField>
+        </Field>
+        <Field Name="Maturity_date_caption">
+          <DataField>Maturity_date_caption</DataField>
+        </Field>
+        <Field Name="Date_Guarantee_Caption">
+          <DataField>Date_Guarantee_Caption</DataField>
+        </Field>
+        <Field Name="Laon_amount_caption">
+          <DataField>Laon_amount_caption</DataField>
+        </Field>
+        <Field Name="Currency_caption">
+          <DataField>Currency_caption</DataField>
+        </Field>
+        <Field Name="disbursed_caption">
+          <DataField>disbursed_caption</DataField>
+        </Field>
+        <Field Name="payment_caption">
+          <DataField>payment_caption</DataField>
+        </Field>
+        <Field Name="Arrears_days_caption">
+          <DataField>Arrears_days_caption</DataField>
+        </Field>
+        <Field Name="Country_caption">
+          <DataField>Country_caption</DataField>
+        </Field>
+        <Field Name="City_town_caption">
+          <DataField>City_town_caption</DataField>
+        </Field>
+        <Field Name="State_province_region_caption">
+          <DataField>State_province_region_caption</DataField>
+        </Field>
+        <Field Name="business_sector_caption">
+          <DataField>business_sector_caption</DataField>
+        </Field>
+        <Field Name="additional_information_caption">
+          <DataField>additional_information_caption</DataField>
+        </Field>
+        <Field Name="Purpose_of_loan_caption">
+          <DataField>Purpose_of_loan_caption</DataField>
+        </Field>
+        <Field Name="Guarantee_Percenta_Caption">
+          <DataField>Guarantee_Percenta_Caption</DataField>
+        </Field>
+        <Field Name="Removed_from_coverage_date_caption">
+          <DataField>Removed_from_coverage_date_caption</DataField>
+        </Field>
+        <Field Name="End_amount_caption">
+          <DataField>End_amount_caption</DataField>
+        </Field>
+        <Field Name="Removed_From_Coverage_date">
+          <DataField>Removed_From_Coverage_date</DataField>
+        </Field>
+        <Field Name="Disbursed__">
+          <DataField>Disbursed__</DataField>
+        </Field>
+        <Field Name="Disbursed__Format">
+          <DataField>Disbursed__Format</DataField>
+        </Field>
+        <Field Name="Payment__">
+          <DataField>Payment__</DataField>
+        </Field>
+        <Field Name="Payment__Format">
+          <DataField>Payment__Format</DataField>
+        </Field>
+        <Field Name="End__AMount">
+          <DataField>End__AMount</DataField>
+        </Field>
+        <Field Name="End__AMountFormat">
+          <DataField>End__AMountFormat</DataField>
+        </Field>
+        <Field Name="Arrears__Days">
+          <DataField>Arrears__Days</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
+</Report>

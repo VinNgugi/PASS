@@ -1,0 +1,28 @@
+{
+  "id": "40224ef7-0252-4257-8995-31cf26109c9f",
+  "name": "Recruitment",
+  "publisher": "AES Ltd",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "14.0.0.0",
+  "application": "14.0.0.0",
+  "idRanges": [
+    {
+      "from": 51513000,
+      "to": 51515999
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://Recruitment.com/help/",
+  "showMyCode": true,
+  "runtime": "3.0",
+  "target": "Internal"
+
+}

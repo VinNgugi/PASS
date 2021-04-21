@@ -1,0 +1,1785 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Please update this value">
+    <body>
+      <group id="body">
+        <trans-unit id="Page 523354100 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Card</source>
+          <target>Customer Card</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New,Process,Report,New Document,Approve,Request Approval,Prices and Discounts,Navigate,Customer</source>
+          <target>New,Process,Report,New Document,Approve,Request Approval,Prices and Discounts,Navigate,Customer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Property PromotedActionCategories</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target>General</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the customer. The field is either filled automatically from a defined number series, or you enter the number manually because you have enabled manual number entry in the number-series setup.</source>
+          <target>Specifies the number of the customer. The field is either filled automatically from a defined number series, or you enter the number manually because you have enabled manual number entry in the number-series setup.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the customer's name. This name will appear on all sales documents for the customer. You can enter a maximum of 50 characters, both numbers and letters.</source>
+          <target>Specifies the customer's name. This name will appear on all sales documents for the customer. You can enter a maximum of 50 characters, both numbers and letters.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 411528779 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies an alternate name that you can use to search for a customer.</source>
+          <target>Specifies an alternate name that you can use to search for a customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Search Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 1329258699 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the customer's intercompany partner code.</source>
+          <target>Specifies the customer's intercompany partner code.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control IC Partner Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 2178647059 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the payment amount that the customer owes for completed sales. This value is also known as the customer's balance.</source>
+          <target>Specifies the payment amount that the customer owes for completed sales. This value is also known as the customer's balance.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Balance (LCY) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 230205143 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies payments from the customer that are overdue per today's date.</source>
+          <target>Specifies payments from the customer that are overdue per today's date.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Balance Due (LCY) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 3246865201 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the maximum amount you allow the customer to exceed the payment balance before warnings are issued.</source>
+          <target>Specifies the maximum amount you allow the customer to exceed the payment balance before warnings are issued.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Credit Limit (LCY) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 3543129988 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies which transactions with the customer that cannot be blocked, for example, because the customer is insolvent.</source>
+          <target>Specifies which transactions with the customer that cannot be blocked, for example, because the customer is insolvent.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Blocked - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 880902346 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether to limit access to data for the data subject during daily operations. This is useful, for example, when protecting data from changes while it is under privacy review.</source>
+          <target>Specifies whether to limit access to data for the data subject during daily operations. This is useful, for example, when protecting data from changes while it is under privacy review.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Privacy Blocked - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 553464652 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a code for the salesperson who normally handles this customer's account.</source>
+          <target>Specifies a code for the salesperson who normally handles this customer's account.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Salesperson Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 2247850105 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code for the responsibility center that will administer this customer by default.</source>
+          <target>Specifies the code for the responsibility center that will administer this customer by default.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Responsibility Center - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 3116130058 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code for the service zone that is assigned to the customer.</source>
+          <target>Specifies the code for the service zone that is assigned to the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Service Zone Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 1690655812 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the preferred method of sending documents to this customer, so that you do not have to select a sending option every time that you post and send a document to the customer. Sales documents to this customer will be sent using the specified sending profile and will override the default document sending profile.</source>
+          <target>Specifies the preferred method of sending documents to this customer, so that you do not have to select a sending option every time that you post and send a document to the customer. Sales documents to this customer will be sent using the specified sending profile and will override the default document sending profile.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Document Sending Profile - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 419845748 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Sales</source>
+          <target>Total Sales</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control TotalSales2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 419845748 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies your total sales turnover with the customer in the current fiscal year. It is calculated from amounts excluding VAT on all completed and open invoices and credit memos.</source>
+          <target>Specifies your total sales turnover with the customer in the current fiscal year. It is calculated from amounts excluding VAT on all completed and open invoices and credit memos.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control TotalSales2 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 3180412077 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Costs (LCY)</source>
+          <target>Costs (LCY)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control CustSalesLCY - CustProfit - AdjmtCostLCY - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 3180412077 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies how much cost you have incurred from the customer in the current fiscal year.</source>
+          <target>Specifies how much cost you have incurred from the customer in the current fiscal year.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control CustSalesLCY - CustProfit - AdjmtCostLCY - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 203180436 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Profit (LCY)</source>
+          <target>Profit (LCY)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control AdjCustProfit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 203180436 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies how much profit you have made from the customer in the current fiscal year.</source>
+          <target>Specifies how much profit you have made from the customer in the current fiscal year.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control AdjCustProfit - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 587210538 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Profit %</source>
+          <target>Profit %</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control AdjProfitPct - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 587210538 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies how much profit you have made from the customer in the current fiscal year, expressed as a percentage of the customer's total sales.</source>
+          <target>Specifies how much profit you have made from the customer in the current fiscal year, expressed as a percentage of the customer's total sales.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control AdjProfitPct - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 2393253273 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when the customer card was last modified.</source>
+          <target>Specifies when the customer card was last modified.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Last Date Modified - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 308872266 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies that you can change customer name in the document, because the name is not used in search.</source>
+          <target>Specifies that you can change customer name in the document, because the name is not used in search.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Disable Search by Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 2731911828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Address &amp; Contact</source>
+          <target>Address &amp; Contact</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Address &amp; Contact - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 2784646184 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Address</source>
+          <target>Address</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control AddressDetails - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 3168444338 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the customer's address. This address will appear on all sales documents for the customer.</source>
+          <target>Specifies the customer's address. This address will appear on all sales documents for the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Address - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 2306852000 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies additional address information.</source>
+          <target>Specifies additional address information.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Address 2 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 714791889 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the customer's city.</source>
+          <target>Specifies the customer's city.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control City - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 499448942 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the state, province or county as a part of the address.</source>
+          <target>Specifies the state, province or county as a part of the address.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control County - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 3660300303 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the postal code.</source>
+          <target>Specifies the postal code.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Post Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 284764054 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the country/region of the address.</source>
+          <target>Specifies the country/region of the address.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Country/Region Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 184792793 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the customer's address on your preferred map website.</source>
+          <target>Specifies the customer's address on your preferred map website.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control ShowMap - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 2593889414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact</source>
+          <target>Contact</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control ContactDetails - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 1382454869 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Code</source>
+          <target>Contact Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Primary Contact No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 1382454869 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the contact number for the customer.</source>
+          <target>Specifies the contact number for the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Primary Contact No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 4144518489 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Name</source>
+          <target>Contact Name</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control ContactName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 4144518489 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the person you regularly contact when you do business with this customer.</source>
+          <target>Specifies the name of the person you regularly contact when you do business with this customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control ContactName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 3986423421 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the customer's telephone number.</source>
+          <target>Specifies the customer's telephone number.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Phone No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 1541011875 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the customer's email address.</source>
+          <target>Specifies the customer's email address.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control E-Mail - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 1807381932 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the customer's fax number.</source>
+          <target>Specifies the customer's fax number.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Fax No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 2909674232 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the customer's home page address.</source>
+          <target>Specifies the customer's home page address.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Home Page - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 2273653569 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the language to be used on printouts for this customer.</source>
+          <target>Specifies the language to be used on printouts for this customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Language Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 1450094168 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoicing</source>
+          <target>Invoicing</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Invoicing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 2965034906 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bill-to Customer</source>
+          <target>Bill-to Customer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Bill-to Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 2965034906 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a different customer who will be invoiced for products that you sell to the customer in the Name field on the customer card.</source>
+          <target>Specifies a different customer who will be invoiced for products that you sell to the customer in the Name field on the customer card.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Bill-to Customer No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 617267791 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the customer's VAT registration number for customers in EU countries/regions.</source>
+          <target>Specifies the customer's VAT registration number for customers in EU countries/regions.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control VAT Registration No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 389645823 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the customer in connection with electronic document sending.</source>
+          <target>Specifies the customer in connection with electronic document sending.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control GLN - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 2063456215 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies which customer address is inserted on sales quotes that you create for the customer.</source>
+          <target>Specifies which customer address is inserted on sales quotes that you create for the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Copy Sell-to Addr. to Qte From - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 1954627230 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies how many copies of an invoice for the customer will be printed at a time.</source>
+          <target>Specifies how many copies of an invoice for the customer will be printed at a time.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Invoice Copies - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 622982646 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Details</source>
+          <target>Posting Details</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control PostingDetails - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 633819257 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the customer's trade type to link transactions made for this customer with the appropriate general ledger account according to the general posting setup.</source>
+          <target>Specifies the customer's trade type to link transactions made for this customer with the appropriate general ledger account according to the general posting setup.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Gen. Bus. Posting Group - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 1844012642 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the customer's VAT specification to link transactions made for this customer to.</source>
+          <target>Specifies the customer's VAT specification to link transactions made for this customer to.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control VAT Bus. Posting Group - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 410940989 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the customer's market type to link business transactions to.</source>
+          <target>Specifies the customer's market type to link business transactions to.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Customer Posting Group - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 303512405 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prices and Discounts</source>
+          <target>Prices and Discounts</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control PricesandDiscounts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 4198939294 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the default currency for the customer.</source>
+          <target>Specifies the default currency for the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Currency Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 2725149570 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the customer price group code, which you can use to set up special sales prices in the Sales Prices window.</source>
+          <target>Specifies the customer price group code, which you can use to set up special sales prices in the Sales Prices window.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Customer Price Group - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 273731812 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the customer discount group code, which you can use as a criterion to set up special discounts in the Sales Line Discounts window.</source>
+          <target>Specifies the customer discount group code, which you can use as a criterion to set up special discounts in the Sales Line Discounts window.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Customer Disc. Group - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 1002060992 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if a sales line discount is calculated when a special sales price is offered according to setup in the Sales Prices window.</source>
+          <target>Specifies if a sales line discount is calculated when a special sales price is offered according to setup in the Sales Prices window.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Allow Line Disc. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 2095078121 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a code for the invoice discount terms that you have defined for the customer.</source>
+          <target>Specifies a code for the invoice discount terms that you have defined for the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Invoice Disc. Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 304272296 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if the Unit Price and Line Amount fields on document lines should be shown with or without VAT.</source>
+          <target>Specifies if the Unit Price and Line Amount fields on document lines should be shown with or without VAT.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Prices Including VAT - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 1004196339 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payments</source>
+          <target>Payments</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Payments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 3146932276 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a prepayment percentage that applies to all orders for this customer, regardless of the items or services on the order lines.</source>
+          <target>Specifies a prepayment percentage that applies to all orders for this customer, regardless of the items or services on the order lines.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Prepayment % - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 2039693239 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies how to apply payments to entries for this customer.</source>
+          <target>Specifies how to apply payments to entries for this customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Application Method - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 1522950594 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies for direct debit collections if the customer that the payment is collected from is a person or a company.</source>
+          <target>Specifies for direct debit collections if the customer that the payment is collected from is a person or a company.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Partner Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 966740350 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a code that indicates the payment terms that you require of the customer.</source>
+          <target>Specifies a code that indicates the payment terms that you require of the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Payment Terms Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 3855271124 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies how the customer usually submits payment, such as bank transfer or check.</source>
+          <target>Specifies how the customer usually submits payment, such as bank transfer or check.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Payment Method Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 1840439778 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies how reminders about late payments are handled for this customer.</source>
+          <target>Specifies how reminders about late payments are handled for this customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Reminder Terms Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 2725554719 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies finance charges are calculated for the customer.</source>
+          <target>Specifies finance charges are calculated for the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Fin. Charge Terms Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 1483009923 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a payment term that will be used to calculate cash flow for the customer.</source>
+          <target>Specifies a payment term that will be used to calculate cash flow for the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Cash Flow Payment Terms Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 3306062001 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether to include this customer when you print the Statement report.</source>
+          <target>Specifies whether to include this customer when you print the Statement report.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Print Statements - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 1619051884 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the last statement that was printed for this customer.</source>
+          <target>Specifies the number of the last statement that was printed for this customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Last Statement No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 3524847678 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies that the customer is not allowed a payment tolerance.</source>
+          <target>Specifies that the customer is not allowed a payment tolerance.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Block Payment Tolerance - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 1634172321 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the customer's bank account that will be used by default when you process refunds to the customer and direct debit collections.</source>
+          <target>Specifies the customer's bank account that will be used by default when you process refunds to the customer and direct debit collections.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Preferred Bank Account Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 3097346278 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipping</source>
+          <target>Shipping</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Shipping - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 993414011 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code for another shipment address than the customer's own address, which is entered by default.</source>
+          <target>Specifies the code for another shipment address than the customer's own address, which is entered by default.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Ship-to Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 2161572060 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies from which location sales to this customer will be processed by default.</source>
+          <target>Specifies from which location sales to this customer will be processed by default.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Location Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 4231739422 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if several orders delivered to the customer can appear on the same sales invoice.</source>
+          <target>Specifies if several orders delivered to the customer can appear on the same sales invoice.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Combine Shipments - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 825293260 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether items will never, automatically (Always), or optionally be reserved for this customer.</source>
+          <target>Specifies whether items will never, automatically (Always), or optionally be reserved for this customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Reserve - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 3744117490 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if the customer accepts partial shipment of orders.</source>
+          <target>Specifies if the customer accepts partial shipment of orders.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Shipping Advice - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 3470333905 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipment Method</source>
+          <target>Shipment Method</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Shipment Method - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 2205104606 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <target>Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Shipment Method Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 2205104606 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies which shipment method to use when you ship items to the customer.</source>
+          <target>Specifies which shipment method to use when you ship items to the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Shipment Method Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 4045368290 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Agent</source>
+          <target>Agent</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Shipping Agent Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 4045368290 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies which shipping company is used when you ship items to the customer.</source>
+          <target>Specifies which shipping company is used when you ship items to the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Shipping Agent Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 2730811709 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Agent Service</source>
+          <target>Agent Service</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Shipping Agent Service Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 2730811709 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code for the shipping agent service to use for this customer.</source>
+          <target>Specifies the code for the shipping agent service to use for this customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Shipping Agent Service Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 1913523417 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies how long it takes from when the items are shipped from the warehouse to when they are delivered.</source>
+          <target>Specifies how long it takes from when the items are shipped from the warehouse to when they are delivered.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Shipping Time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 2726785886 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a customizable calendar for shipment planning that holds the customer's working days and holidays.</source>
+          <target>Specifies a customizable calendar for shipment planning that holds the customer's working days and holidays.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Base Calendar Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 3603371397 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customized Calendar</source>
+          <target>Customized Calendar</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Customized Calendar - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 3603371397 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies that you have set up a customized version of a base calendar.</source>
+          <target>Specifies that you have set up a customized version of a base calendar.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Customized Calendar - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 84074407 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Statistics</source>
+          <target>Statistics</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Statistics - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 25700210 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Balance</source>
+          <target>Balance</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Balance - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 2354007957 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Money Owed - Current</source>
+          <target>Money Owed - Current</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Balance (LCY)2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 2354007957 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the payment amount that the customer owes for completed sales. This value is also known as the customer's balance.</source>
+          <target>Specifies the payment amount that the customer owes for completed sales. This value is also known as the customer's balance.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Balance (LCY)2 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 2110107450 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Money Owed - Expected</source>
+          <target>Money Owed - Expected</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control ExpectedCustMoneyOwed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 2110107450 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the payment amount that the customer will owe when ongoing sales invoices and credit memos are completed.</source>
+          <target>Specifies the payment amount that the customer will owe when ongoing sales invoices and credit memos are completed.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control ExpectedCustMoneyOwed - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 613516469 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Money Owed - Total</source>
+          <target>Money Owed - Total</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control TotalMoneyOwed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 613516469 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the payment amount that the customer owes for completed sales plus sales that are still ongoing. The value is the sum of the values in the Money Owed - Current and Money Owed - Expected fields.</source>
+          <target>Specifies the payment amount that the customer owes for completed sales plus sales that are still ongoing. The value is the sum of the values in the Money Owed - Current and Money Owed - Expected fields.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control TotalMoneyOwed - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 3522968116 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Credit Limit</source>
+          <target>Credit Limit</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control CreditLimit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 3522968116 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the maximum amount you allow the customer to exceed the payment balance before warnings are issued.</source>
+          <target>Specifies the maximum amount you allow the customer to exceed the payment balance before warnings are issued.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control CreditLimit - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 474657049 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Usage Of Credit Limit</source>
+          <target>Usage Of Credit Limit</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control CalcCreditLimitLCYExpendedPct - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 474657049 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies how much of the customer's payment balance consists of credit.</source>
+          <target>Specifies how much of the customer's payment balance consists of credit.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control CalcCreditLimitLCYExpendedPct - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 1860368738 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payments</source>
+          <target>Payments</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Control108 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 2883274974 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the sum of outstanding payments from the customer.</source>
+          <target>Specifies the sum of outstanding payments from the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Balance Due - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 1941690658 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payments This Year</source>
+          <target>Payments This Year</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Payments (LCY) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 1941690658 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the sum of payments received from the customer in the current fiscal year.</source>
+          <target>Specifies the sum of payments received from the customer in the current fiscal year.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Payments (LCY) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 3685048730 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Average Collection Period (Days)</source>
+          <target>Average Collection Period (Days)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control CustomerMgt.AvgDaysToPay("No.") - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 3685048730 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies how long the customer typically takes to pay invoices in the current fiscal year.</source>
+          <target>Specifies how long the customer typically takes to pay invoices in the current fiscal year.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control CustomerMgt.AvgDaysToPay("No.") - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 271209895 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Average Late Payments (Days)</source>
+          <target>Average Late Payments (Days)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control DaysPaidPastDueDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 271209895 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the average number of days the customer is late with payments.</source>
+          <target>Specifies the average number of days the customer is late with payments.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control DaysPaidPastDueDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 3803959643 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales This Year</source>
+          <target>Sales This Year</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Sales This Year - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 2556443028 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies your sales to the customer in the current fiscal year based on posted sales invoices. The figure in parenthesis Specifies the number of posted sales invoices.</source>
+          <target>Specifies your sales to the customer in the current fiscal year based on posted sales invoices. The figure in parenthesis Specifies the number of posted sales invoices.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control GetAmountOnPostedInvoices - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 2963645188 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies your expected refunds to the customer in the current fiscal year based on posted sales credit memos. The figure in parenthesis shows the number of posted sales credit memos.</source>
+          <target>Specifies your expected refunds to the customer in the current fiscal year based on posted sales credit memos. The figure in parenthesis shows the number of posted sales credit memos.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control GetAmountOnCrMemo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 535952893 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies your expected sales to the customer in the current fiscal year based on ongoing sales invoices. The figure in parenthesis shows the number of ongoing sales invoices.</source>
+          <target>Specifies your expected sales to the customer in the current fiscal year based on ongoing sales invoices. The figure in parenthesis shows the number of ongoing sales invoices.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control GetAmountOnOutstandingInvoices - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 53402187 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies your refunds to the customer in the current fiscal year based on ongoing sales credit memos. The figure in parenthesis shows the number of ongoing sales credit memos.</source>
+          <target>Specifies your refunds to the customer in the current fiscal year based on ongoing sales credit memos. The figure in parenthesis shows the number of ongoing sales credit memos.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control GetAmountOnOutstandingCrMemos - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 3971433691 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Sales</source>
+          <target>Total Sales</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Totals - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 3971433691 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies your total sales turnover with the customer in the current fiscal year. It is calculated from amounts excluding VAT on all completed and open invoices and credit memos.</source>
+          <target>Specifies your total sales turnover with the customer in the current fiscal year. It is calculated from amounts excluding VAT on all completed and open invoices and credit memos.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Totals - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 2832496633 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice Discounts</source>
+          <target>Invoice Discounts</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control CustInvDiscAmountLCY - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 2832496633 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the total of all invoice discounts that you have granted to the customer in the current fiscal year.</source>
+          <target>Specifies the total of all invoice discounts that you have granted to the customer in the current fiscal year.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control CustInvDiscAmountLCY - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 4188138751 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Special Prices &amp; Discounts</source>
+          <target>Special Prices &amp; Discounts</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control PriceAndLineDisc - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 1658766258 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Attachments</source>
+          <target>Attachments</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Attached Documents - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Control 318613646 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target>Details</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Control Details - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 286808158 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Customer</source>
+          <target>&amp;Customer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "&amp;Customer" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 2173385693 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimensions</source>
+          <target>Dimensions</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Dimensions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 2173385693 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or edit dimensions, such as area, project, or department, that you can assign to sales and purchase documents to distribute costs and analyze transaction history.</source>
+          <target>View or edit dimensions, such as area, project, or department, that you can assign to sales and purchase documents to distribute costs and analyze transaction history.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Dimensions - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1891033120 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Accounts</source>
+          <target>Bank Accounts</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Bank Accounts" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1891033120 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or set up the customer's bank accounts. You can set up any number of bank accounts for each customer.</source>
+          <target>View or set up the customer's bank accounts. You can set up any number of bank accounts for each customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Bank Accounts" - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 3279189506 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Direct Debit Mandates</source>
+          <target>Direct Debit Mandates</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Direct Debit Mandates" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 3279189506 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View the direct-debit mandates that reflect agreements with customers to collect invoice payments from their bank account.</source>
+          <target>View the direct-debit mandates that reflect agreements with customers to collect invoice payments from their bank account.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Direct Debit Mandates" - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 361585347 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ship-&amp;to Addresses</source>
+          <target>Ship-&amp;to Addresses</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action ShipToAddresses - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 361585347 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or edit alternate shipping addresses where the customer wants items delivered if different from the regular address.</source>
+          <target>View or edit alternate shipping addresses where the customer wants items delivered if different from the regular address.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action ShipToAddresses - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 3993128796 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>C&amp;ontact</source>
+          <target>C&amp;ontact</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Contact - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 3993128796 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or edit detailed information about the contact person at the customer.</source>
+          <target>View or edit detailed information about the contact person at the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Contact - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 4040121412 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cross Re&amp;ferences</source>
+          <target>Cross Re&amp;ferences</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Cross Re&amp;ferences" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 4040121412 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up the customer's own identification of items that you sell to the customer. Cross-references to the customer's item number means that the item number is automatically shown on sales documents instead of the number that you use.</source>
+          <target>Set up the customer's own identification of items that you sell to the customer. Cross-references to the customer's item number means that the item number is automatically shown on sales documents instead of the number that you use.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Cross Re&amp;ferences" - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 3679814578 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Co&amp;mments</source>
+          <target>Co&amp;mments</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Co&amp;mments" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 3679814578 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or add comments for the record.</source>
+          <target>View or add comments for the record.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Co&amp;mments" - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 2602785559 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Approvals</source>
+          <target>Approvals</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action ApprovalEntries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 2602785559 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View a list of the records that are waiting to be approved. For example, you can see who requested the record to be approved, when it was sent, and when it is due to be approved.</source>
+          <target>View a list of the records that are waiting to be approved. For example, you can see who requested the record to be approved, when it was sent, and when it is due to be approved.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action ApprovalEntries - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1225782422 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Attachments</source>
+          <target>Attachments</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Attachments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1225782422 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Add a file as an attachment. You can attach images as well as documents.</source>
+          <target>Add a file as an attachment. You can attach images as well as documents.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Attachments - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1276988459 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Layouts</source>
+          <target>Document Layouts</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action CustomerReportSelections - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1276988459 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up a layout for different types of documents such as invoices, quotes, and credit memos.</source>
+          <target>Set up a layout for different types of documents such as invoices, quotes, and credit memos.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action CustomerReportSelections - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 2038220399 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dynamics 365 for Sales</source>
+          <target>Dynamics 365 for Sales</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action ActionGroupCRM - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 131320746 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account</source>
+          <target>Account</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action CRMGotoAccount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 131320746 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the coupled Dynamics 365 for Sales account.</source>
+          <target>Open the coupled Dynamics 365 for Sales account.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action CRMGotoAccount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1491665972 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Synchronize</source>
+          <target>Synchronize</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action CRMSynchronizeNow - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1491665972 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send or get updated data to or from Dynamics 365 for Sales.</source>
+          <target>Send or get updated data to or from Dynamics 365 for Sales.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action CRMSynchronizeNow - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 4272558113 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update Account Statistics</source>
+          <target>Update Account Statistics</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action UpdateStatisticsInCRM - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 4272558113 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send customer statistics data to Dynamics 365 for Sales to update the Account Statistics FactBox.</source>
+          <target>Send customer statistics data to Dynamics 365 for Sales to update the Account Statistics FactBox.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action UpdateStatisticsInCRM - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 3570890871 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Coupling</source>
+          <target>Coupling</target>
+          <note from="Developer" annotates="general" priority="2">, Comment='Coupling is a noun'</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Coupling - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 3570890871 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create, change, or delete a coupling between the Business Central record and a Dynamics 365 for Sales record.</source>
+          <target>Create, change, or delete a coupling between the Business Central record and a Dynamics 365 for Sales record.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Coupling - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1463213340 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set Up Coupling</source>
+          <target>Set Up Coupling</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action ManageCRMCoupling - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1463213340 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create or modify the coupling to a Dynamics 365 for Sales account.</source>
+          <target>Create or modify the coupling to a Dynamics 365 for Sales account.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action ManageCRMCoupling - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 867350916 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete Coupling</source>
+          <target>Delete Coupling</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action DeleteCRMCoupling - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 867350916 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete the coupling to a Dynamics 365 for Sales account.</source>
+          <target>Delete the coupling to a Dynamics 365 for Sales account.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action DeleteCRMCoupling - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 858950785 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Synchronization Log</source>
+          <target>Synchronization Log</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action ShowLog - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 858950785 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View integration synchronization jobs for the customer table.</source>
+          <target>View integration synchronization jobs for the customer table.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action ShowLog - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 4201773078 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>History</source>
+          <target>History</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action History - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 256766579 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ledger E&amp;ntries</source>
+          <target>Ledger E&amp;ntries</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Ledger E&amp;ntries" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 256766579 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View the history of transactions that have been posted for the selected record.</source>
+          <target>View the history of transactions that have been posted for the selected record.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Ledger E&amp;ntries" - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1595006073 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Statistics</source>
+          <target>Statistics</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Action76 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1595006073 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View statistical information, such as the value of posted entries, for the record.</source>
+          <target>View statistical information, such as the value of posted entries, for the record.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Action76 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 2868165170 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>S&amp;ales</source>
+          <target>S&amp;ales</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "S&amp;ales" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 2868165170 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View a summary of customer ledger entries. You select the time interval in the View by field. The Period column on the left contains a series of dates that are determined by the time interval you have selected.</source>
+          <target>View a summary of customer ledger entries. You select the time interval in the View by field. The Period column on the left contains a series of dates that are determined by the time interval you have selected.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "S&amp;ales" - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1814876899 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry Statistics</source>
+          <target>Entry Statistics</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Entry Statistics" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1814876899 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View entry statistics for the record.</source>
+          <target>View entry statistics for the record.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Entry Statistics" - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 475232499 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Statistics by C&amp;urrencies</source>
+          <target>Statistics by C&amp;urrencies</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Statistics by C&amp;urrencies" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 475232499 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View statistics for customers that use multiple currencies.</source>
+          <target>View statistics for customers that use multiple currencies.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Statistics by C&amp;urrencies" - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1681707746 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item &amp;Tracking Entries</source>
+          <target>Item &amp;Tracking Entries</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Item &amp;Tracking Entries" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1681707746 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View serial or lot numbers that are assigned to items.</source>
+          <target>View serial or lot numbers that are assigned to items.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Item &amp;Tracking Entries" - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 501916589 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prices and Discounts</source>
+          <target>Prices and Discounts</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Prices and Discounts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 612284075 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice &amp;Discounts</source>
+          <target>Invoice &amp;Discounts</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Invoice &amp;Discounts" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 612284075 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up different discounts that are applied to invoices for the customer. An invoice discount is automatically granted to the customer when the total on a sales invoice exceeds a certain amount.</source>
+          <target>Set up different discounts that are applied to invoices for the customer. An invoice discount is automatically granted to the customer when the total on a sales invoice exceeds a certain amount.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Invoice &amp;Discounts" - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1167061642 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prices</source>
+          <target>Prices</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Prices - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1167061642 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or set up different prices for items that you sell to the customer. An item price is automatically granted on invoice lines when the specified criteria are met, such as customer, quantity, or ending date.</source>
+          <target>View or set up different prices for items that you sell to the customer. An item price is automatically granted on invoice lines when the specified criteria are met, such as customer, quantity, or ending date.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Prices - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1806089196 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line Discounts</source>
+          <target>Line Discounts</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Line Discounts" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1806089196 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or set up different discounts for items that you sell to the customer. An item discount is automatically granted on invoice lines when the specified criteria are met, such as customer, quantity, or ending date.</source>
+          <target>View or set up different discounts for items that you sell to the customer. An item discount is automatically granted on invoice lines when the specified criteria are met, such as customer, quantity, or ending date.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Line Discounts" - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 3815719381 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>S&amp;ales</source>
+          <target>S&amp;ales</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action ActionGroup82 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 3935213860 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prepa&amp;yment Percentages</source>
+          <target>Prepa&amp;yment Percentages</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Prepa&amp;yment Percentages" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 3935213860 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or edit the percentages of the price that can be paid as a prepayment. </source>
+          <target>View or edit the percentages of the price that can be paid as a prepayment. </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Prepa&amp;yment Percentages" - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 25043960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Recurring Sales Lines</source>
+          <target>Recurring Sales Lines</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Recurring Sales Lines" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 25043960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up recurring sales lines for the customer, such as a monthly replenishment order, that can quickly be inserted on a sales document for the customer.</source>
+          <target>Set up recurring sales lines for the customer, such as a monthly replenishment order, that can quickly be inserted on a sales document for the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Recurring Sales Lines" - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 3324780168 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Documents</source>
+          <target>Documents</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Documents - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 2593441947 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quotes</source>
+          <target>Quotes</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Quotes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 2593441947 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View a list of ongoing sales quotes for the customer.</source>
+          <target>View a list of ongoing sales quotes for the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Quotes - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 502423214 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoices</source>
+          <target>Invoices</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Invoices - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 502423214 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View a list of ongoing sales invoices for the customer.</source>
+          <target>View a list of ongoing sales invoices for the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Invoices - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 3435539207 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Orders</source>
+          <target>Orders</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 3435539207 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View a list of ongoing sales orders for the customer.</source>
+          <target>View a list of ongoing sales orders for the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Orders - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 2378109793 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Return Orders</source>
+          <target>Return Orders</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Return Orders" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 2378109793 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the list of ongoing return orders.</source>
+          <target>Open the list of ongoing return orders.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Return Orders" - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 3268942531 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Issued Documents</source>
+          <target>Issued Documents</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Issued Documents" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1398984538 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Issued &amp;Reminders</source>
+          <target>Issued &amp;Reminders</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Issued &amp;Reminders" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1398984538 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View the reminders that you have sent to the customer.</source>
+          <target>View the reminders that you have sent to the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Issued &amp;Reminders" - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 3284995516 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Issued &amp;Finance Charge Memos</source>
+          <target>Issued &amp;Finance Charge Memos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Issued &amp;Finance Charge Memos" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 3284995516 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View the finance charge memos that you have sent to the customer.</source>
+          <target>View the finance charge memos that you have sent to the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Issued &amp;Finance Charge Memos" - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 2153562330 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Blanket Orders</source>
+          <target>Blanket Orders</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Blanket Orders" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 2153562330 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the list of ongoing blanket orders.</source>
+          <target>Open the list of ongoing blanket orders.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Blanket Orders" - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1328214062 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Jobs</source>
+          <target>&amp;Jobs</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "&amp;Jobs" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1328214062 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the list of ongoing jobs.</source>
+          <target>Open the list of ongoing jobs.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "&amp;Jobs" - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 2187938695 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service</source>
+          <target>Service</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Service - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 924597108 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Orders</source>
+          <target>Service Orders</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Service Orders" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 924597108 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the list of ongoing service orders.</source>
+          <target>Open the list of ongoing service orders.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Service Orders" - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1196644382 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ser&amp;vice Contracts</source>
+          <target>Ser&amp;vice Contracts</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Ser&amp;vice Contracts" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1196644382 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the list of ongoing service contracts.</source>
+          <target>Open the list of ongoing service contracts.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Ser&amp;vice Contracts" - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1664217527 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service &amp;Items</source>
+          <target>Service &amp;Items</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Service &amp;Items" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1664217527 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or edit the service items that are registered for the customer.</source>
+          <target>View or edit the service items that are registered for the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Service &amp;Items" - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1786719539 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Blanket Sales Order</source>
+          <target>Blanket Sales Order</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action NewBlanketSalesOrder - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1786719539 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create a blanket sales order for the customer.</source>
+          <target>Create a blanket sales order for the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action NewBlanketSalesOrder - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1376376002 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Quote</source>
+          <target>Sales Quote</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action NewSalesQuote - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1376376002 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Offer items or services to a customer.</source>
+          <target>Offer items or services to a customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action NewSalesQuote - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 2558695303 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Invoice</source>
+          <target>Sales Invoice</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action NewSalesInvoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 2558695303 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create a sales invoice for the customer.</source>
+          <target>Create a sales invoice for the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action NewSalesInvoice - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 141120214 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Order</source>
+          <target>Sales Order</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action NewSalesOrder - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 141120214 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create a sales order for the customer.</source>
+          <target>Create a sales order for the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action NewSalesOrder - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 631666973 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Credit Memo</source>
+          <target>Sales Credit Memo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action NewSalesCreditMemo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 631666973 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create a new sales credit memo to revert a posted sales invoice.</source>
+          <target>Create a new sales credit memo to revert a posted sales invoice.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action NewSalesCreditMemo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1939516388 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Quote</source>
+          <target>Sales Quote</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action NewSalesQuoteAddin - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1939516388 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Offer items or services to a customer.</source>
+          <target>Offer items or services to a customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action NewSalesQuoteAddin - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 4179027029 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Invoice</source>
+          <target>Sales Invoice</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action NewSalesInvoiceAddin - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 4179027029 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create a sales invoice for the customer.</source>
+          <target>Create a sales invoice for the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action NewSalesInvoiceAddin - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 731091536 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Order</source>
+          <target>Sales Order</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action NewSalesOrderAddin - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 731091536 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create a sales order for the customer.</source>
+          <target>Create a sales order for the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action NewSalesOrderAddin - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 2702181935 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Credit Memo</source>
+          <target>Sales Credit Memo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action NewSalesCreditMemoAddin - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 2702181935 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create a new sales credit memo to revert a posted sales invoice.</source>
+          <target>Create a new sales credit memo to revert a posted sales invoice.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action NewSalesCreditMemoAddin - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 393914092 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Return Order</source>
+          <target>Sales Return Order</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action NewSalesReturnOrder - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 393914092 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create a new sales return order for items or services.</source>
+          <target>Create a new sales return order for items or services.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action NewSalesReturnOrder - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 2298641493 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Quote</source>
+          <target>Service Quote</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action NewServiceQuote - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 2298641493 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create a new service quote for the customer.</source>
+          <target>Create a new service quote for the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action NewServiceQuote - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 2836487164 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Invoice</source>
+          <target>Service Invoice</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action NewServiceInvoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 2836487164 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create a new service invoice for the customer.</source>
+          <target>Create a new service invoice for the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action NewServiceInvoice - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 2633090113 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Order</source>
+          <target>Service Order</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action NewServiceOrder - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 2633090113 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create a new service order for the customer.</source>
+          <target>Create a new service order for the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action NewServiceOrder - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 2943552178 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Credit Memo</source>
+          <target>Service Credit Memo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action NewServiceCreditMemo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 2943552178 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create a new service credit memo for the customer.</source>
+          <target>Create a new service credit memo for the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action NewServiceCreditMemo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 514652582 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reminder</source>
+          <target>Reminder</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action NewReminder - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 514652582 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create a new reminder for the customer.</source>
+          <target>Create a new reminder for the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action NewReminder - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 3705410488 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finance Charge Memo</source>
+          <target>Finance Charge Memo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action NewFinanceChargeMemo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 3705410488 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create a new finance charge memo.</source>
+          <target>Create a new finance charge memo.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action NewFinanceChargeMemo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 227370865 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Approval</source>
+          <target>Approval</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Approval - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 803889193 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Approve</source>
+          <target>Approve</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Approve - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 803889193 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Approve the requested changes.</source>
+          <target>Approve the requested changes.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Approve - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 113888489 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reject</source>
+          <target>Reject</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Reject - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 113888489 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reject the approval request.</source>
+          <target>Reject the approval request.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Reject - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1013253961 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delegate</source>
+          <target>Delegate</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Delegate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1013253961 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delegate the approval to a substitute approver.</source>
+          <target>Delegate the approval to a substitute approver.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Delegate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 2790486453 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comments</source>
+          <target>Comments</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Comment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 2790486453 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or add comments for the record.</source>
+          <target>View or add comments for the record.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Comment - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 108712202 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Request Approval</source>
+          <target>Request Approval</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Request Approval" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 383335270 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send A&amp;pproval Request</source>
+          <target>Send A&amp;pproval Request</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action SendApprovalRequest - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 383335270 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Request approval to change the record.</source>
+          <target>Request approval to change the record.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action SendApprovalRequest - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 858296388 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cancel Approval Re&amp;quest</source>
+          <target>Cancel Approval Re&amp;quest</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action CancelApprovalRequest - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 858296388 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cancel the approval request.</source>
+          <target>Cancel the approval request.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action CancelApprovalRequest - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 2668096654 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Flow</source>
+          <target>Flow</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Flow - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1475970794 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create a Flow</source>
+          <target>Create a Flow</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action CreateFlow - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1475970794 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create a new Flow from a list of relevant Flow templates.</source>
+          <target>Create a new Flow from a list of relevant Flow templates.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action CreateFlow - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 4289635518 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>See my Flows</source>
+          <target>See my Flows</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action SeeFlows - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 4289635518 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View and configure Flows that you created.</source>
+          <target>View and configure Flows that you created.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action SeeFlows - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 3812023357 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Workflow</source>
+          <target>Workflow</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Workflow - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1510548940 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Approval Workflow</source>
+          <target>Create Approval Workflow</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action CreateApprovalWorkflow - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1510548940 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up an approval workflow for creating or changing customers, by going through a few pages that will guide you.</source>
+          <target>Set up an approval workflow for creating or changing customers, by going through a few pages that will guide you.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action CreateApprovalWorkflow - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1361931818 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Manage Approval Workflows</source>
+          <target>Manage Approval Workflows</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action ManageApprovalWorkflows - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1361931818 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or edit existing approval workflows for creating or changing customers.</source>
+          <target>View or edit existing approval workflows for creating or changing customers.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action ManageApprovalWorkflows - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1215046457 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>F&amp;unctions</source>
+          <target>F&amp;unctions</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "F&amp;unctions" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 2440873021 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Templates</source>
+          <target>Templates</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Templates - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 2440873021 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or edit customer templates.</source>
+          <target>View or edit customer templates.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Templates - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 3569786096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Apply Template</source>
+          <target>Apply Template</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action ApplyTemplate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 3569786096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Apply a template to update the entity with your standard settings for a certain type of entity.</source>
+          <target>Apply a template to update the entity with your standard settings for a certain type of entity.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action ApplyTemplate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 831745189 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Save as Template</source>
+          <target>Save as Template</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action SaveAsTemplate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 831745189 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Save the customer card as a template that can be reused to create new customer cards. Customer templates contain preset information to help you fill fields on customer cards.</source>
+          <target>Save the customer card as a template that can be reused to create new customer cards. Customer templates contain preset information to help you fill fields on customer cards.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action SaveAsTemplate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1932534545 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Merge With</source>
+          <target>Merge With</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action MergeDuplicate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1932534545 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Merge two customer records into one. Before merging, review which field values you want to keep or override. The merge action cannot be undone.</source>
+          <target>Merge two customer records into one. Before merging, review which field values you want to keep or override. The merge action cannot be undone.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action MergeDuplicate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 314551098 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post Cash Receipts</source>
+          <target>Post Cash Receipts</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Post Cash Receipts" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 314551098 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create a cash receipt journal line for the customer, for example, to post a payment receipt.</source>
+          <target>Create a cash receipt journal line for the customer, for example, to post a payment receipt.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Post Cash Receipts" - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 4042561715 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Journal</source>
+          <target>Sales Journal</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Sales Journal" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 4042561715 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post any sales transaction for the customer.</source>
+          <target>Post any sales transaction for the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action "Sales Journal" - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 2899087397 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Register Customer Payments</source>
+          <target>Register Customer Payments</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action PaymentRegistration - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 2899087397 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Process your customer payments by matching amounts received on your bank account with the related unpaid sales invoices, and then post the payments.</source>
+          <target>Process your customer payments by matching amounts received on your bank account with the related unpaid sales invoices, and then post the payments.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action PaymentRegistration - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1476842928 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Detailed Aging</source>
+          <target>Customer Detailed Aging</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Report Customer Detailed Aging - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1476842928 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View a detailed list of each customer's total payments due, divided into three time periods. The report can be used to decide when to issue reminders, to evaluate a customer's creditworthiness, or to prepare liquidity analyses.</source>
+          <target>View a detailed list of each customer's total payments due, divided into three time periods. The report can be used to decide when to issue reminders, to evaluate a customer's creditworthiness, or to prepare liquidity analyses.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Report Customer Detailed Aging - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 484445550 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer - Labels</source>
+          <target>Customer - Labels</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Report Customer - Labels - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 484445550 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View mailing labels with the customers' names and addresses.</source>
+          <target>View mailing labels with the customers' names and addresses.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Report Customer - Labels - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1928977090 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer - Balance to Date</source>
+          <target>Customer - Balance to Date</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Report Customer - Balance to Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 1928977090 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View a list with customers' payment history up until a certain date. You can use the report to extract your total sales income at the close of an accounting period or fiscal year.</source>
+          <target>View a list with customers' payment history up until a certain date. You can use the report to extract your total sales income at the close of an accounting period or fiscal year.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Report Customer - Balance to Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 3669476013 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Statement</source>
+          <target>Statement</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Report Statement - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - Action 3669476013 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View a list of a customer's transactions for a selected period, for example, to send to the customer at the close of an accounting period. You can choose to have all overdue balances displayed regardless of the period specified, or you can choose to include an aging band.</source>
+          <target>View a list of a customer's transactions for a selected period, for example, to send to the customer at the close of an accounting period. You can choose to have all overdue balances displayed regardless of the period specified, or you can choose to include an aging band.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - Action Report Statement - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - NamedType 1610464038" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Overdue Payments as of %1</source>
+          <target>Overdue Payments as of %1</target>
+          <note from="Developer" annotates="general" priority="2">, Comment='Overdue Payments as of 27-02-2012'</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - NamedType OverduePaymentsMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - NamedType 3627654502" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Invoices (%1)</source>
+          <target>Posted Invoices (%1)</target>
+          <note from="Developer" annotates="general" priority="2">, Comment='Invoices (5)'</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - NamedType PostedInvoicesMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - NamedType 14748871" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Credit Memos (%1)</source>
+          <target>Posted Credit Memos (%1)</target>
+          <note from="Developer" annotates="general" priority="2">, Comment='Credit Memos (3)'</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - NamedType CreditMemosMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - NamedType 2069943163" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ongoing Invoices (%1)</source>
+          <target>Ongoing Invoices (%1)</target>
+          <note from="Developer" annotates="general" priority="2">, Comment='Ongoing Invoices (4)'</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - NamedType OutstandingInvoicesMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - NamedType 4085301397" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ongoing Credit Memos (%1)</source>
+          <target>Ongoing Credit Memos (%1)</target>
+          <note from="Developer" annotates="general" priority="2">, Comment='Ongoing Credit Memos (4)'</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - NamedType OutstandingCrMemosMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 523354100 - NamedType 3704376103" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show on Map</source>
+          <target>Show on Map</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customer Card - NamedType ShowMapLbl</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

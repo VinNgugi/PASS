@@ -1,0 +1,35 @@
+{
+  "id": "a61de1c6-7b34-413d-838e-3a265ba18e52",
+  "name": "Disciplinary Cases",
+  "publisher": "AES Ltd",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": 
+  [
+    {
+      "appId": "40224ef7-0252-4257-8995-31cf26109c9f",
+      "name": "Recruitment",
+      "publisher": "AES Ltd",
+      "version": "1.0.0.0"
+     }
+  ],
+  "screenshots": [],
+  "platform": "14.0.0.0",
+  "application": "14.0.0.0",
+  "idRanges": [
+    {
+      "from": 51513000,
+      "to": 51515999
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://DisciplinaryCases.com/help/",
+  "showMyCode": true,
+  "runtime": "3.0",
+  "target":"Internal"
+}

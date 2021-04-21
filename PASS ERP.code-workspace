@@ -1,0 +1,41 @@
+{
+	"folders": [
+		{
+			"path": "GuaranteeManagement"
+		},
+		{
+			"path": "Recruitment"
+		},
+		{
+			"path": "EmployeeManager"
+		},
+		{
+			"path": "Finance"
+		},
+		{
+			"path": "Disciplinary Cases"
+		},
+		{
+			"path": "Training"
+		},
+		{
+			"path": "Investments"
+		},
+		{
+			"path": "ClaimManagement"
+		},
+		{
+			"path": "AIC Management"
+		},
+		{
+			"path": "PerformanceManagement"
+		},
+		{
+			"path": "RoleCenters"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Recruitment",
+		"liveServer.settings.port": 5535
+	}
+}

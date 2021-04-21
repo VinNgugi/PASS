@@ -1,0 +1,1523 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns:cl="http://schemas.microsoft.com/sqlserver/reporting/2010/01/componentdefinition" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
+      <rd:DataSourceID>00b8df62-fc0a-41bd-8588-ea8cc4b9b1bc</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <ReportItems>
+          <Tablix Name="Table1">
+            <TablixBody>
+              <TablixColumns>
+                <TablixColumn>
+                  <Width>2.85cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>0.6cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.8cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>0.6cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.8cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>0.6cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.8cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>0.6cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.8cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>0.6cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.8cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>0.2cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>0.2cm</Width>
+                </TablixColumn>
+              </TablixColumns>
+              <TablixRows>
+                <TablixRow>
+                  <Height>0cm</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextBox1">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextBox11">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextBox12">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextBox13">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextBox14">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextBox15">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextBox16">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextBox17">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextBox18">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextBox19">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextBox110">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="COMPANYNAME">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!COMPANYNAME.Value</Value>
+                                  <Style>
+                                    <Color>#ff0000</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Visibility>
+                            <Hidden>true</Hidden>
+                          </Visibility>
+                          <Style>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="STRSUBSTNO___Core_Business____1___Year_">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!STRSUBSTNO___Core_Business____1___Year_.Value</Value>
+                                  <Style>
+                                    <Color>#ff0000</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Visibility>
+                            <Hidden>true</Hidden>
+                          </Visibility>
+                          <Style>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+                <TablixRow>
+                  <Height>0.423cm</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="BPStatus_Control1000000187">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=First(Fields!BPStatus_Control1000000187.Value)</Value>
+                                  <Style>
+                                    <FontSize>7pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>0.15cm</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="BPCount_1__Control1000000177">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Code.BlankZero(Sum(Fields!BPCount_1__Control1000000177.Value))</Value>
+                                  <Style>
+                                    <FontSize>7pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>0.15cm</PaddingLeft>
+                            <PaddingRight>0.075cm</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="BPAmount_1__Control1000000178">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Code.BlankZero(Sum(Fields!BPAmount_1__Control1000000178.Value))</Value>
+                                  <Style>
+                                    <FontSize>7pt</FontSize>
+                                    <Format>=First(Fields!BPAmount_1__Control1000000178Format.Value)</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>0.075cm</PaddingLeft>
+                            <PaddingRight>0.225cm</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="BPCount_2__Control1000000180">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Code.BlankZero(Sum(Fields!BPCount_2__Control1000000180.Value))</Value>
+                                  <Style>
+                                    <FontSize>7pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>0.225cm</PaddingLeft>
+                            <PaddingRight>0.075cm</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="BPAmount_2__Control1000000179">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Code.BlankZero(Sum(Fields!BPAmount_2__Control1000000179.Value))</Value>
+                                  <Style>
+                                    <FontSize>7pt</FontSize>
+                                    <Format>=First(Fields!BPAmount_2__Control1000000179Format.Value)</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>0.075cm</PaddingLeft>
+                            <PaddingRight>0.225cm</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="BPCount_3__Control1000000182">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Code.BlankZero(Sum(Fields!BPCount_3__Control1000000182.Value))</Value>
+                                  <Style>
+                                    <FontSize>7pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>0.225cm</PaddingLeft>
+                            <PaddingRight>0.075cm</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="BPAmount_3__Control1000000181">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Code.BlankZero(Sum(Fields!BPAmount_3__Control1000000181.Value))</Value>
+                                  <Style>
+                                    <FontSize>7pt</FontSize>
+                                    <Format>=First(Fields!BPAmount_3__Control1000000181Format.Value)</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>0.075cm</PaddingLeft>
+                            <PaddingRight>0.225cm</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="BPCount_4__Control1000000184">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Code.BlankZero(Sum(Fields!BPCount_4__Control1000000184.Value))</Value>
+                                  <Style>
+                                    <FontSize>7pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>0.225cm</PaddingLeft>
+                            <PaddingRight>0.075cm</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="BPAmount_4__Control1000000183">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Code.BlankZero(Sum(Fields!BPAmount_4__Control1000000183.Value))</Value>
+                                  <Style>
+                                    <FontSize>7pt</FontSize>
+                                    <Format>=First(Fields!BPAmount_4__Control1000000183Format.Value)</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>0.075cm</PaddingLeft>
+                            <PaddingRight>0.225cm</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="BPCount_5__Control1000000186">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Code.BlankZero(Sum(Fields!BPCount_5__Control1000000186.Value))</Value>
+                                  <Style>
+                                    <FontSize>7pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>0.225cm</PaddingLeft>
+                            <PaddingRight>0.075cm</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="BPAmount_5__Control1000000185">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Code.BlankZero(Sum(Fields!BPAmount_5__Control1000000185.Value))</Value>
+                                  <Style>
+                                    <FontSize>7pt</FontSize>
+                                    <Format>=First(Fields!BPAmount_5__Control1000000185Format.Value)</Format>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>0.075cm</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextBox111">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Style>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <ColSpan>2</ColSpan>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell />
+                  </TablixCells>
+                </TablixRow>
+              </TablixRows>
+            </TablixBody>
+            <TablixColumnHierarchy>
+              <TablixMembers>
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+              </TablixMembers>
+            </TablixColumnHierarchy>
+            <TablixRowHierarchy>
+              <TablixMembers>
+                <TablixMember>
+                  <Group Name="Table1_Details_Group">
+                    <DataElementName>Detail</DataElementName>
+                  </Group>
+                  <TablixMembers>
+                    <TablixMember />
+                  </TablixMembers>
+                  <DataElementName>Detail_Collection</DataElementName>
+                  <DataElementOutput>Output</DataElementOutput>
+                  <KeepTogether>true</KeepTogether>
+                </TablixMember>
+                <TablixMember>
+                  <KeepWithGroup>Before</KeepWithGroup>
+                  <KeepTogether>true</KeepTogether>
+                </TablixMember>
+              </TablixMembers>
+            </TablixRowHierarchy>
+            <DataSetName>DataSet_Result</DataSetName>
+            <Top>0.423cm</Top>
+            <Height>0.423cm</Height>
+            <Width>15.25cm</Width>
+            <Style />
+          </Tablix>
+          <Textbox Name="ContFilter">
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=First(Fields!ContFilter.Value)</Value>
+                    <Style>
+                      <FontSize>7pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <Top>0cm</Top>
+            <Left>0cm</Left>
+            <Height>0.423cm</Height>
+            <Width>18.15cm</Width>
+            <ZIndex>1</ZIndex>
+            <Style>
+              <VerticalAlign>Middle</VerticalAlign>
+            </Style>
+          </Textbox>
+        </ReportItems>
+        <Height>0.846cm</Height>
+        <Style />
+      </Body>
+      <Width>18.15cm</Width>
+      <Page>
+        <PageHeader>
+          <Height>0.846cm</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <ReportItems>
+            <Textbox Name="STRSUBSTNO___Core_Business____1___Year_1">
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=ReportItems!STRSUBSTNO___Core_Business____1___Year_.Value</Value>
+                      <Style>
+                        <FontSize>8pt</FontSize>
+                        <FontWeight>Bold</FontWeight>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <Top>0cm</Top>
+              <Left>0cm</Left>
+              <Height>0.423cm</Height>
+              <Width>9.15cm</Width>
+              <Style>
+                <VerticalAlign>Middle</VerticalAlign>
+              </Style>
+            </Textbox>
+            <Textbox Name="COMPANYNAME1">
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=ReportItems!COMPANYNAME.Value</Value>
+                      <Style>
+                        <FontSize>7pt</FontSize>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <Top>0.423cm</Top>
+              <Left>0cm</Left>
+              <Height>0.423cm</Height>
+              <Width>7.5cm</Width>
+              <ZIndex>1</ZIndex>
+              <Style>
+                <VerticalAlign>Middle</VerticalAlign>
+              </Style>
+            </Textbox>
+            <Textbox Name="ExecutionTimeTextBox">
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=Globals!ExecutionTime</Value>
+                      <Style>
+                        <FontSize>7pt</FontSize>
+                        <Format>g</Format>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Right</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <Top>0cm</Top>
+              <Left>15cm</Left>
+              <Height>0.423cm</Height>
+              <Width>3.15cm</Width>
+              <ZIndex>2</ZIndex>
+              <Style>
+                <VerticalAlign>Middle</VerticalAlign>
+              </Style>
+            </Textbox>
+          </ReportItems>
+          <Style />
+        </PageHeader>
+        <PageHeight>29.7cm</PageHeight>
+        <PageWidth>20.95cm</PageWidth>
+        <LeftMargin>2.1cm</LeftMargin>
+        <RightMargin>0cm</RightMargin>
+        <TopMargin>2cm</TopMargin>
+        <BottomMargin>2cm</BottomMargin>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+</Code>
+  <Language>=User!Language</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Cm</rd:ReportUnitType>
+  <rd:ReportID>6add297e-ad5a-4999-a2e2-1204b61c5563</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="STRSUBSTNO___Core_Business____1___Year_">
+          <DataField>STRSUBSTNO___Core_Business____1___Year_</DataField>
+        </Field>
+        <Field Name="FORMAT_TODAY_0_4_">
+          <DataField>FORMAT_TODAY_0_4_</DataField>
+        </Field>
+        <Field Name="ContFilter">
+          <DataField>ContFilter</DataField>
+        </Field>
+        <Field Name="Parameters_No_">
+          <DataField>Parameters_No_</DataField>
+        </Field>
+        <Field Name="Year">
+          <DataField>Year</DataField>
+        </Field>
+        <Field Name="BPCount_1_">
+          <DataField>BPCount_1_</DataField>
+        </Field>
+        <Field Name="BPAmount_1_">
+          <DataField>BPAmount_1_</DataField>
+        </Field>
+        <Field Name="BPAmount_1_Format">
+          <DataField>BPAmount_1_Format</DataField>
+        </Field>
+        <Field Name="BPAmount_2_">
+          <DataField>BPAmount_2_</DataField>
+        </Field>
+        <Field Name="BPAmount_2_Format">
+          <DataField>BPAmount_2_Format</DataField>
+        </Field>
+        <Field Name="BPCount_2_">
+          <DataField>BPCount_2_</DataField>
+        </Field>
+        <Field Name="BPAmount_3_">
+          <DataField>BPAmount_3_</DataField>
+        </Field>
+        <Field Name="BPAmount_3_Format">
+          <DataField>BPAmount_3_Format</DataField>
+        </Field>
+        <Field Name="BPCount_3_">
+          <DataField>BPCount_3_</DataField>
+        </Field>
+        <Field Name="BPAmount_4_">
+          <DataField>BPAmount_4_</DataField>
+        </Field>
+        <Field Name="BPAmount_4_Format">
+          <DataField>BPAmount_4_Format</DataField>
+        </Field>
+        <Field Name="BPCount_4_">
+          <DataField>BPCount_4_</DataField>
+        </Field>
+        <Field Name="BPAmount_5_">
+          <DataField>BPAmount_5_</DataField>
+        </Field>
+        <Field Name="BPAmount_5_Format">
+          <DataField>BPAmount_5_Format</DataField>
+        </Field>
+        <Field Name="BPCount_5_">
+          <DataField>BPCount_5_</DataField>
+        </Field>
+        <Field Name="BPStatus">
+          <DataField>BPStatus</DataField>
+        </Field>
+        <Field Name="Q1Caption">
+          <DataField>Q1Caption</DataField>
+        </Field>
+        <Field Name="Q2Caption">
+          <DataField>Q2Caption</DataField>
+        </Field>
+        <Field Name="Q3Caption">
+          <DataField>Q3Caption</DataField>
+        </Field>
+        <Field Name="Q4Caption">
+          <DataField>Q4Caption</DataField>
+        </Field>
+        <Field Name="TypeCaption">
+          <DataField>TypeCaption</DataField>
+        </Field>
+        <Field Name="No_Caption">
+          <DataField>No_Caption</DataField>
+        </Field>
+        <Field Name="AmountCaption">
+          <DataField>AmountCaption</DataField>
+        </Field>
+        <Field Name="AmountCaption_Control1000000019">
+          <DataField>AmountCaption_Control1000000019</DataField>
+        </Field>
+        <Field Name="No_Caption_Control1000000020">
+          <DataField>No_Caption_Control1000000020</DataField>
+        </Field>
+        <Field Name="AmountCaption_Control1000000021">
+          <DataField>AmountCaption_Control1000000021</DataField>
+        </Field>
+        <Field Name="No_Caption_Control1000000022">
+          <DataField>No_Caption_Control1000000022</DataField>
+        </Field>
+        <Field Name="AmountCaption_Control1000000023">
+          <DataField>AmountCaption_Control1000000023</DataField>
+        </Field>
+        <Field Name="No_Caption_Control1000000024">
+          <DataField>No_Caption_Control1000000024</DataField>
+        </Field>
+        <Field Name="AmountCaption_Control1000000025">
+          <DataField>AmountCaption_Control1000000025</DataField>
+        </Field>
+        <Field Name="No_Caption_Control1000000026">
+          <DataField>No_Caption_Control1000000026</DataField>
+        </Field>
+        <Field Name="Application_Received_Number">
+          <DataField>Application_Received_Number</DataField>
+        </Field>
+        <Field Name="BPCount_1__Control1000000079">
+          <DataField>BPCount_1__Control1000000079</DataField>
+        </Field>
+        <Field Name="BPAmount_1__Control1000000208">
+          <DataField>BPAmount_1__Control1000000208</DataField>
+        </Field>
+        <Field Name="BPAmount_1__Control1000000208Format">
+          <DataField>BPAmount_1__Control1000000208Format</DataField>
+        </Field>
+        <Field Name="BPAmount_2__Control1000000209">
+          <DataField>BPAmount_2__Control1000000209</DataField>
+        </Field>
+        <Field Name="BPAmount_2__Control1000000209Format">
+          <DataField>BPAmount_2__Control1000000209Format</DataField>
+        </Field>
+        <Field Name="BPCount_2__Control1000000210">
+          <DataField>BPCount_2__Control1000000210</DataField>
+        </Field>
+        <Field Name="BPAmount_3__Control1000000211">
+          <DataField>BPAmount_3__Control1000000211</DataField>
+        </Field>
+        <Field Name="BPAmount_3__Control1000000211Format">
+          <DataField>BPAmount_3__Control1000000211Format</DataField>
+        </Field>
+        <Field Name="BPCount_3__Control1000000212">
+          <DataField>BPCount_3__Control1000000212</DataField>
+        </Field>
+        <Field Name="BPAmount_4__Control1000000213">
+          <DataField>BPAmount_4__Control1000000213</DataField>
+        </Field>
+        <Field Name="BPAmount_4__Control1000000213Format">
+          <DataField>BPAmount_4__Control1000000213Format</DataField>
+        </Field>
+        <Field Name="BPCount_4__Control1000000214">
+          <DataField>BPCount_4__Control1000000214</DataField>
+        </Field>
+        <Field Name="BPAmount_5__Control1000000215">
+          <DataField>BPAmount_5__Control1000000215</DataField>
+        </Field>
+        <Field Name="BPAmount_5__Control1000000215Format">
+          <DataField>BPAmount_5__Control1000000215Format</DataField>
+        </Field>
+        <Field Name="BPCount_5__Control1000000216">
+          <DataField>BPCount_5__Control1000000216</DataField>
+        </Field>
+        <Field Name="BPStatus_Control1000000217">
+          <DataField>BPStatus_Control1000000217</DataField>
+        </Field>
+        <Field Name="Application_Rejected_Number">
+          <DataField>Application_Rejected_Number</DataField>
+        </Field>
+        <Field Name="BPCount_1__Control1000000051">
+          <DataField>BPCount_1__Control1000000051</DataField>
+        </Field>
+        <Field Name="BPAmount_1__Control1000000052">
+          <DataField>BPAmount_1__Control1000000052</DataField>
+        </Field>
+        <Field Name="BPAmount_1__Control1000000052Format">
+          <DataField>BPAmount_1__Control1000000052Format</DataField>
+        </Field>
+        <Field Name="BPAmount_2__Control1000000053">
+          <DataField>BPAmount_2__Control1000000053</DataField>
+        </Field>
+        <Field Name="BPAmount_2__Control1000000053Format">
+          <DataField>BPAmount_2__Control1000000053Format</DataField>
+        </Field>
+        <Field Name="BPCount_2__Control1000000054">
+          <DataField>BPCount_2__Control1000000054</DataField>
+        </Field>
+        <Field Name="BPAmount_3__Control1000000055">
+          <DataField>BPAmount_3__Control1000000055</DataField>
+        </Field>
+        <Field Name="BPAmount_3__Control1000000055Format">
+          <DataField>BPAmount_3__Control1000000055Format</DataField>
+        </Field>
+        <Field Name="BPCount_3__Control1000000056">
+          <DataField>BPCount_3__Control1000000056</DataField>
+        </Field>
+        <Field Name="BPAmount_4__Control1000000057">
+          <DataField>BPAmount_4__Control1000000057</DataField>
+        </Field>
+        <Field Name="BPAmount_4__Control1000000057Format">
+          <DataField>BPAmount_4__Control1000000057Format</DataField>
+        </Field>
+        <Field Name="BPCount_4__Control1000000108">
+          <DataField>BPCount_4__Control1000000108</DataField>
+        </Field>
+        <Field Name="BPAmount_5__Control1000000109">
+          <DataField>BPAmount_5__Control1000000109</DataField>
+        </Field>
+        <Field Name="BPAmount_5__Control1000000109Format">
+          <DataField>BPAmount_5__Control1000000109Format</DataField>
+        </Field>
+        <Field Name="BPCount_5__Control1000000110">
+          <DataField>BPCount_5__Control1000000110</DataField>
+        </Field>
+        <Field Name="BPStatus_Control1000000111">
+          <DataField>BPStatus_Control1000000111</DataField>
+        </Field>
+        <Field Name="Client_Contracts_Signed_Number">
+          <DataField>Client_Contracts_Signed_Number</DataField>
+        </Field>
+        <Field Name="BPCount_1__Control1000000120">
+          <DataField>BPCount_1__Control1000000120</DataField>
+        </Field>
+        <Field Name="BPAmount_1__Control1000000121">
+          <DataField>BPAmount_1__Control1000000121</DataField>
+        </Field>
+        <Field Name="BPAmount_1__Control1000000121Format">
+          <DataField>BPAmount_1__Control1000000121Format</DataField>
+        </Field>
+        <Field Name="BPAmount_2__Control1000000122">
+          <DataField>BPAmount_2__Control1000000122</DataField>
+        </Field>
+        <Field Name="BPAmount_2__Control1000000122Format">
+          <DataField>BPAmount_2__Control1000000122Format</DataField>
+        </Field>
+        <Field Name="BPCount_2__Control1000000123">
+          <DataField>BPCount_2__Control1000000123</DataField>
+        </Field>
+        <Field Name="BPAmount_3__Control1000000124">
+          <DataField>BPAmount_3__Control1000000124</DataField>
+        </Field>
+        <Field Name="BPAmount_3__Control1000000124Format">
+          <DataField>BPAmount_3__Control1000000124Format</DataField>
+        </Field>
+        <Field Name="BPCount_3__Control1000000125">
+          <DataField>BPCount_3__Control1000000125</DataField>
+        </Field>
+        <Field Name="BPAmount_4__Control1000000126">
+          <DataField>BPAmount_4__Control1000000126</DataField>
+        </Field>
+        <Field Name="BPAmount_4__Control1000000126Format">
+          <DataField>BPAmount_4__Control1000000126Format</DataField>
+        </Field>
+        <Field Name="BPCount_4__Control1000000127">
+          <DataField>BPCount_4__Control1000000127</DataField>
+        </Field>
+        <Field Name="BPAmount_5__Control1000000128">
+          <DataField>BPAmount_5__Control1000000128</DataField>
+        </Field>
+        <Field Name="BPAmount_5__Control1000000128Format">
+          <DataField>BPAmount_5__Control1000000128Format</DataField>
+        </Field>
+        <Field Name="BPCount_5__Control1000000129">
+          <DataField>BPCount_5__Control1000000129</DataField>
+        </Field>
+        <Field Name="BPStatus_Control1000000130">
+          <DataField>BPStatus_Control1000000130</DataField>
+        </Field>
+        <Field Name="Under_Preparation___Not_used_Number">
+          <DataField>Under_Preparation___Not_used_Number</DataField>
+        </Field>
+        <Field Name="BPCount_1__Control1000000139">
+          <DataField>BPCount_1__Control1000000139</DataField>
+        </Field>
+        <Field Name="BPAmount_1__Control1000000140">
+          <DataField>BPAmount_1__Control1000000140</DataField>
+        </Field>
+        <Field Name="BPAmount_1__Control1000000140Format">
+          <DataField>BPAmount_1__Control1000000140Format</DataField>
+        </Field>
+        <Field Name="BPAmount_2__Control1000000141">
+          <DataField>BPAmount_2__Control1000000141</DataField>
+        </Field>
+        <Field Name="BPAmount_2__Control1000000141Format">
+          <DataField>BPAmount_2__Control1000000141Format</DataField>
+        </Field>
+        <Field Name="BPCount_2__Control1000000142">
+          <DataField>BPCount_2__Control1000000142</DataField>
+        </Field>
+        <Field Name="BPAmount_3__Control1000000143">
+          <DataField>BPAmount_3__Control1000000143</DataField>
+        </Field>
+        <Field Name="BPAmount_3__Control1000000143Format">
+          <DataField>BPAmount_3__Control1000000143Format</DataField>
+        </Field>
+        <Field Name="BPCount_3__Control1000000144">
+          <DataField>BPCount_3__Control1000000144</DataField>
+        </Field>
+        <Field Name="BPAmount_4__Control1000000145">
+          <DataField>BPAmount_4__Control1000000145</DataField>
+        </Field>
+        <Field Name="BPAmount_4__Control1000000145Format">
+          <DataField>BPAmount_4__Control1000000145Format</DataField>
+        </Field>
+        <Field Name="BPCount_4__Control1000000146">
+          <DataField>BPCount_4__Control1000000146</DataField>
+        </Field>
+        <Field Name="BPAmount_5__Control1000000147">
+          <DataField>BPAmount_5__Control1000000147</DataField>
+        </Field>
+        <Field Name="BPAmount_5__Control1000000147Format">
+          <DataField>BPAmount_5__Control1000000147Format</DataField>
+        </Field>
+        <Field Name="BPCount_5__Control1000000148">
+          <DataField>BPCount_5__Control1000000148</DataField>
+        </Field>
+        <Field Name="BPStatus_Control1000000149">
+          <DataField>BPStatus_Control1000000149</DataField>
+        </Field>
+        <Field Name="In_Pipeline_Number">
+          <DataField>In_Pipeline_Number</DataField>
+        </Field>
+        <Field Name="BPCount_1__Control1000000158">
+          <DataField>BPCount_1__Control1000000158</DataField>
+        </Field>
+        <Field Name="BPAmount_1__Control1000000159">
+          <DataField>BPAmount_1__Control1000000159</DataField>
+        </Field>
+        <Field Name="BPAmount_1__Control1000000159Format">
+          <DataField>BPAmount_1__Control1000000159Format</DataField>
+        </Field>
+        <Field Name="BPAmount_2__Control1000000160">
+          <DataField>BPAmount_2__Control1000000160</DataField>
+        </Field>
+        <Field Name="BPAmount_2__Control1000000160Format">
+          <DataField>BPAmount_2__Control1000000160Format</DataField>
+        </Field>
+        <Field Name="BPCount_2__Control1000000161">
+          <DataField>BPCount_2__Control1000000161</DataField>
+        </Field>
+        <Field Name="BPAmount_3__Control1000000162">
+          <DataField>BPAmount_3__Control1000000162</DataField>
+        </Field>
+        <Field Name="BPAmount_3__Control1000000162Format">
+          <DataField>BPAmount_3__Control1000000162Format</DataField>
+        </Field>
+        <Field Name="BPCount_3__Control1000000163">
+          <DataField>BPCount_3__Control1000000163</DataField>
+        </Field>
+        <Field Name="BPAmount_4__Control1000000164">
+          <DataField>BPAmount_4__Control1000000164</DataField>
+        </Field>
+        <Field Name="BPAmount_4__Control1000000164Format">
+          <DataField>BPAmount_4__Control1000000164Format</DataField>
+        </Field>
+        <Field Name="BPCount_4__Control1000000165">
+          <DataField>BPCount_4__Control1000000165</DataField>
+        </Field>
+        <Field Name="BPAmount_5__Control1000000166">
+          <DataField>BPAmount_5__Control1000000166</DataField>
+        </Field>
+        <Field Name="BPAmount_5__Control1000000166Format">
+          <DataField>BPAmount_5__Control1000000166Format</DataField>
+        </Field>
+        <Field Name="BPCount_5__Control1000000167">
+          <DataField>BPCount_5__Control1000000167</DataField>
+        </Field>
+        <Field Name="BPStatus_Control1000000168">
+          <DataField>BPStatus_Control1000000168</DataField>
+        </Field>
+        <Field Name="BP_Sent_To_Bank_Number">
+          <DataField>BP_Sent_To_Bank_Number</DataField>
+        </Field>
+        <Field Name="BPCount_1__Control1000000177">
+          <DataField>BPCount_1__Control1000000177</DataField>
+        </Field>
+        <Field Name="BPAmount_1__Control1000000178">
+          <DataField>BPAmount_1__Control1000000178</DataField>
+        </Field>
+        <Field Name="BPAmount_1__Control1000000178Format">
+          <DataField>BPAmount_1__Control1000000178Format</DataField>
+        </Field>
+        <Field Name="BPAmount_2__Control1000000179">
+          <DataField>BPAmount_2__Control1000000179</DataField>
+        </Field>
+        <Field Name="BPAmount_2__Control1000000179Format">
+          <DataField>BPAmount_2__Control1000000179Format</DataField>
+        </Field>
+        <Field Name="BPCount_2__Control1000000180">
+          <DataField>BPCount_2__Control1000000180</DataField>
+        </Field>
+        <Field Name="BPAmount_3__Control1000000181">
+          <DataField>BPAmount_3__Control1000000181</DataField>
+        </Field>
+        <Field Name="BPAmount_3__Control1000000181Format">
+          <DataField>BPAmount_3__Control1000000181Format</DataField>
+        </Field>
+        <Field Name="BPCount_3__Control1000000182">
+          <DataField>BPCount_3__Control1000000182</DataField>
+        </Field>
+        <Field Name="BPAmount_4__Control1000000183">
+          <DataField>BPAmount_4__Control1000000183</DataField>
+        </Field>
+        <Field Name="BPAmount_4__Control1000000183Format">
+          <DataField>BPAmount_4__Control1000000183Format</DataField>
+        </Field>
+        <Field Name="BPCount_4__Control1000000184">
+          <DataField>BPCount_4__Control1000000184</DataField>
+        </Field>
+        <Field Name="BPAmount_5__Control1000000185">
+          <DataField>BPAmount_5__Control1000000185</DataField>
+        </Field>
+        <Field Name="BPAmount_5__Control1000000185Format">
+          <DataField>BPAmount_5__Control1000000185Format</DataField>
+        </Field>
+        <Field Name="BPCount_5__Control1000000186">
+          <DataField>BPCount_5__Control1000000186</DataField>
+        </Field>
+        <Field Name="BPStatus_Control1000000187">
+          <DataField>BPStatus_Control1000000187</DataField>
+        </Field>
+        <Field Name="Pending_in_Bank_Number">
+          <DataField>Pending_in_Bank_Number</DataField>
+        </Field>
+        <Field Name="BPCount_1__Control1000000196">
+          <DataField>BPCount_1__Control1000000196</DataField>
+        </Field>
+        <Field Name="BPAmount_1__Control1000000197">
+          <DataField>BPAmount_1__Control1000000197</DataField>
+        </Field>
+        <Field Name="BPAmount_1__Control1000000197Format">
+          <DataField>BPAmount_1__Control1000000197Format</DataField>
+        </Field>
+        <Field Name="BPAmount_2__Control1000000198">
+          <DataField>BPAmount_2__Control1000000198</DataField>
+        </Field>
+        <Field Name="BPAmount_2__Control1000000198Format">
+          <DataField>BPAmount_2__Control1000000198Format</DataField>
+        </Field>
+        <Field Name="BPCount_2__Control1000000199">
+          <DataField>BPCount_2__Control1000000199</DataField>
+        </Field>
+        <Field Name="BPAmount_3__Control1000000200">
+          <DataField>BPAmount_3__Control1000000200</DataField>
+        </Field>
+        <Field Name="BPAmount_3__Control1000000200Format">
+          <DataField>BPAmount_3__Control1000000200Format</DataField>
+        </Field>
+        <Field Name="BPCount_3__Control1000000201">
+          <DataField>BPCount_3__Control1000000201</DataField>
+        </Field>
+        <Field Name="BPAmount_4__Control1000000202">
+          <DataField>BPAmount_4__Control1000000202</DataField>
+        </Field>
+        <Field Name="BPAmount_4__Control1000000202Format">
+          <DataField>BPAmount_4__Control1000000202Format</DataField>
+        </Field>
+        <Field Name="BPCount_4__Control1000000203">
+          <DataField>BPCount_4__Control1000000203</DataField>
+        </Field>
+        <Field Name="BPAmount_5__Control1000000204">
+          <DataField>BPAmount_5__Control1000000204</DataField>
+        </Field>
+        <Field Name="BPAmount_5__Control1000000204Format">
+          <DataField>BPAmount_5__Control1000000204Format</DataField>
+        </Field>
+        <Field Name="BPCount_5__Control1000000205">
+          <DataField>BPCount_5__Control1000000205</DataField>
+        </Field>
+        <Field Name="BPStatus_Control1000000206">
+          <DataField>BPStatus_Control1000000206</DataField>
+        </Field>
+        <Field Name="Loan_Approved_in_Bank_Number">
+          <DataField>Loan_Approved_in_Bank_Number</DataField>
+        </Field>
+        <Field Name="BPCount_1__Control1000000098">
+          <DataField>BPCount_1__Control1000000098</DataField>
+        </Field>
+        <Field Name="BPAmount_1__Control1000000099">
+          <DataField>BPAmount_1__Control1000000099</DataField>
+        </Field>
+        <Field Name="BPAmount_1__Control1000000099Format">
+          <DataField>BPAmount_1__Control1000000099Format</DataField>
+        </Field>
+        <Field Name="BPAmount_2__Control1000000100">
+          <DataField>BPAmount_2__Control1000000100</DataField>
+        </Field>
+        <Field Name="BPAmount_2__Control1000000100Format">
+          <DataField>BPAmount_2__Control1000000100Format</DataField>
+        </Field>
+        <Field Name="BPCount_2__Control1000000101">
+          <DataField>BPCount_2__Control1000000101</DataField>
+        </Field>
+        <Field Name="BPAmount_3__Control1000000102">
+          <DataField>BPAmount_3__Control1000000102</DataField>
+        </Field>
+        <Field Name="BPAmount_3__Control1000000102Format">
+          <DataField>BPAmount_3__Control1000000102Format</DataField>
+        </Field>
+        <Field Name="BPCount_3__Control1000000103">
+          <DataField>BPCount_3__Control1000000103</DataField>
+        </Field>
+        <Field Name="BPAmount_4__Control1000000104">
+          <DataField>BPAmount_4__Control1000000104</DataField>
+        </Field>
+        <Field Name="BPAmount_4__Control1000000104Format">
+          <DataField>BPAmount_4__Control1000000104Format</DataField>
+        </Field>
+        <Field Name="BPCount_4__Control1000000105">
+          <DataField>BPCount_4__Control1000000105</DataField>
+        </Field>
+        <Field Name="BPAmount_5__Control1000000106">
+          <DataField>BPAmount_5__Control1000000106</DataField>
+        </Field>
+        <Field Name="BPAmount_5__Control1000000106Format">
+          <DataField>BPAmount_5__Control1000000106Format</DataField>
+        </Field>
+        <Field Name="BPCount_5__Control1000000107">
+          <DataField>BPCount_5__Control1000000107</DataField>
+        </Field>
+        <Field Name="BPStatus_Control1000000207">
+          <DataField>BPStatus_Control1000000207</DataField>
+        </Field>
+        <Field Name="Loan_Rejected_Number">
+          <DataField>Loan_Rejected_Number</DataField>
+        </Field>
+        <Field Name="BPCount_1__Control1000000075">
+          <DataField>BPCount_1__Control1000000075</DataField>
+        </Field>
+        <Field Name="BPAmount_1__Control1000000077">
+          <DataField>BPAmount_1__Control1000000077</DataField>
+        </Field>
+        <Field Name="BPAmount_1__Control1000000077Format">
+          <DataField>BPAmount_1__Control1000000077Format</DataField>
+        </Field>
+        <Field Name="BPAmount_2__Control1000000080">
+          <DataField>BPAmount_2__Control1000000080</DataField>
+        </Field>
+        <Field Name="BPAmount_2__Control1000000080Format">
+          <DataField>BPAmount_2__Control1000000080Format</DataField>
+        </Field>
+        <Field Name="BPCount_2__Control1000000081">
+          <DataField>BPCount_2__Control1000000081</DataField>
+        </Field>
+        <Field Name="BPAmount_3__Control1000000082">
+          <DataField>BPAmount_3__Control1000000082</DataField>
+        </Field>
+        <Field Name="BPAmount_3__Control1000000082Format">
+          <DataField>BPAmount_3__Control1000000082Format</DataField>
+        </Field>
+        <Field Name="BPCount_3__Control1000000083">
+          <DataField>BPCount_3__Control1000000083</DataField>
+        </Field>
+        <Field Name="BPAmount_4__Control1000000084">
+          <DataField>BPAmount_4__Control1000000084</DataField>
+        </Field>
+        <Field Name="BPAmount_4__Control1000000084Format">
+          <DataField>BPAmount_4__Control1000000084Format</DataField>
+        </Field>
+        <Field Name="BPCount_4__Control1000000085">
+          <DataField>BPCount_4__Control1000000085</DataField>
+        </Field>
+        <Field Name="BPAmount_5__Control1000000086">
+          <DataField>BPAmount_5__Control1000000086</DataField>
+        </Field>
+        <Field Name="BPAmount_5__Control1000000086Format">
+          <DataField>BPAmount_5__Control1000000086Format</DataField>
+        </Field>
+        <Field Name="BPCount_5__Control1000000087">
+          <DataField>BPCount_5__Control1000000087</DataField>
+        </Field>
+        <Field Name="BPStatus_Control1000000088">
+          <DataField>BPStatus_Control1000000088</DataField>
+        </Field>
+        <Field Name="CGC_Issued_Number">
+          <DataField>CGC_Issued_Number</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
+</Report>
